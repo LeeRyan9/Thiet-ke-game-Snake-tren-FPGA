@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xspi.h"
+
+XSpi_Config  *xspi_config;
+XSpi spi;
+
+void spi_init(){
+	xspi_config = XSpi_CfgInitialize(&spi, xspi_config, xspi_config->BaseAddress);
+	int status = XSpi_Initialize(&spi,XPAR_AXI_QUAD_SPI_0_DEVICE_ID);
+	if(status == XST_SUCCESS)
+		xil_printf("\nSPI INIT SUCCESSFUL\n");
+	else
+		xil_printf("\nSPI INIT FAILED\n");
+}
+
+int main()
+{
+    init_platform();
+    xpi_init();
+    print("Hello World\n\r");
+    cleanup_platform();
+    return 0;
+}

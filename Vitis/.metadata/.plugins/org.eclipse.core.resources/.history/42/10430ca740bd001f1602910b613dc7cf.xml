@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Testgame" location="E:/Vivado/Test/Testgame" platform="E:/Vivado/Test/Testgame_wrapper/export/Testgame_wrapper/Testgame_wrapper.xpfm" platformUID="xilinx:zedboard::0.0(custom)" systemProject="Testgame_system" sysConfig="Testgame_wrapper" runtime="cpp" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="b0056a438a132358906643f11a9db4df">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1775216800" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.503464037" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

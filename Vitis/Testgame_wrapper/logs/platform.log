@@ -1,0 +1,1631 @@
+TRACE::2024-12-18.17:43:12::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:12::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:12::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-12-18.17:43:15::SCWPlatform::Opened new HwDB with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWWriter::formatted JSON is {
+	"platformName":	"Testgame_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Testgame_wrapper",
+	"platHandOff":	"E:/Vivado/TestIP/Testgame_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Testgame_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-12-18.17:43:15::SCWWriter::formatted JSON is {
+	"platformName":	"Testgame_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Testgame_wrapper",
+	"platHandOff":	"E:/Vivado/TestIP/Testgame_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Testgame_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Testgame_wrapper",
+	"systems":	[{
+			"systemName":	"Testgame_wrapper",
+			"systemDesc":	"Testgame_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Testgame_wrapper"
+		}]
+}
+TRACE::2024-12-18.17:43:15::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-12-18.17:43:15::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2024-12-18.17:43:15::SCWWriter::formatted JSON is {
+	"platformName":	"Testgame_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Testgame_wrapper",
+	"platHandOff":	"E:/Vivado/TestIP/Testgame_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Testgame_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Testgame_wrapper",
+	"systems":	[{
+			"systemName":	"Testgame_wrapper",
+			"systemDesc":	"Testgame_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Testgame_wrapper"
+		}]
+}
+TRACE::2024-12-18.17:43:15::SCWWriter::formatted JSON is {
+	"platformName":	"Testgame_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Testgame_wrapper",
+	"platHandOff":	"E:/Vivado/TestIP/Testgame_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Testgame_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Testgame_wrapper",
+	"systems":	[{
+			"systemName":	"Testgame_wrapper",
+			"systemDesc":	"Testgame_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Testgame_wrapper"
+		}]
+}
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:15::SCWDomain::checking for install qemu data   : 
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:15::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-12-18.17:43:15::SCWMssOS::No sw design opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWMssOS::mss does not exists at E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWMssOS::Creating sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWMssOS::Adding the swdes entry, created swdb E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWMssOS::updating the scw layer changes to swdes at   E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWMssOS::Writing mss at E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWMssOS::Completed writing the mss file at E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2024-12-18.17:43:15::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-12-18.17:43:15::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:15::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-12-18.17:43:15::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:15::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-12-18.17:43:15::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:15::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-12-18.17:43:15::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWWriter::formatted JSON is {
+	"platformName":	"Testgame_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Testgame_wrapper",
+	"platHandOff":	"E:/Vivado/TestIP/Testgame_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Testgame_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Testgame_wrapper",
+	"systems":	[{
+			"systemName":	"Testgame_wrapper",
+			"systemDesc":	"Testgame_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Testgame_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:15::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:15::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-12-18.17:43:15::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:15::SCWMssOS::Completed writing the mss file at E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2024-12-18.17:43:15::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2024-12-18.17:43:17::SCWPlatform::Started generating the artifacts platform Testgame_wrapper
+TRACE::2024-12-18.17:43:17::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-18.17:43:17::SCWPlatform::Started generating the artifacts for system configuration Testgame_wrapper
+LOG::2024-12-18.17:43:17::SCWSystem::Checking the domain standalone_domain
+LOG::2024-12-18.17:43:17::SCWSystem::Not a boot domain 
+LOG::2024-12-18.17:43:17::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-12-18.17:43:17::SCWDomain::Generating domain artifcats
+TRACE::2024-12-18.17:43:17::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-18.17:43:17::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+KEYINFO::2024-12-18.17:43:17::SCWMssOS::Could not open the swdb for E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2024-12-18.17:43:17::SCWMssOS::Could not open the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-12-18.17:43:17::SCWMssOS::No sw design opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::mss exists loading the mss file  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::Opened the sw design from mss  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::Adding the swdes entry E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2024-12-18.17:43:17::SCWMssOS::updating the scw layer about changes
+TRACE::2024-12-18.17:43:17::SCWMssOS::Opened the sw design.  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::Completed writing the mss file at E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2024-12-18.17:43:17::SCWMssOS::Mss edits present, copying mssfile into export location E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-18.17:43:17::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-18.17:43:17::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-12-18.17:43:17::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-12-18.17:43:17::SCWMssOS::Copying to export directory.
+TRACE::2024-12-18.17:43:17::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-12-18.17:43:17::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-12-18.17:43:17::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-12-18.17:43:17::SCWSystem::Completed Processing the sysconfig Testgame_wrapper
+LOG::2024-12-18.17:43:17::SCWPlatform::Completed generating the artifacts for system configuration Testgame_wrapper
+TRACE::2024-12-18.17:43:17::SCWPlatform::Started preparing the platform 
+TRACE::2024-12-18.17:43:17::SCWSystem::Writing the bif file for system config Testgame_wrapper
+TRACE::2024-12-18.17:43:17::SCWSystem::dir created 
+TRACE::2024-12-18.17:43:17::SCWSystem::Writing the bif 
+TRACE::2024-12-18.17:43:17::SCWPlatform::Started writing the spfm file 
+TRACE::2024-12-18.17:43:17::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-12-18.17:43:17::SCWPlatform::Completed generating the platform
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWWriter::formatted JSON is {
+	"platformName":	"Testgame_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Testgame_wrapper",
+	"platHandOff":	"E:/Vivado/TestIP/Testgame_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Testgame_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Testgame_wrapper",
+	"systems":	[{
+			"systemName":	"Testgame_wrapper",
+			"systemDesc":	"Testgame_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Testgame_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"eb7e48c88e40d06a019ae550c25efe9f",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-12-18.17:43:17::SCWPlatform::updated the xpfm file.
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWWriter::formatted JSON is {
+	"platformName":	"Testgame_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Testgame_wrapper",
+	"platHandOff":	"E:/Vivado/TestIP/Testgame_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Testgame_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Testgame_wrapper",
+	"systems":	[{
+			"systemName":	"Testgame_wrapper",
+			"systemDesc":	"Testgame_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Testgame_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"eb7e48c88e40d06a019ae550c25efe9f",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWWriter::formatted JSON is {
+	"platformName":	"Testgame_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Testgame_wrapper",
+	"platHandOff":	"E:/Vivado/TestIP/Testgame_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Testgame_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Testgame_wrapper",
+	"systems":	[{
+			"systemName":	"Testgame_wrapper",
+			"systemDesc":	"Testgame_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Testgame_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"eb7e48c88e40d06a019ae550c25efe9f",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-12-18.17:43:17::SCWPlatform::Started generating the artifacts platform Testgame_wrapper
+TRACE::2024-12-18.17:43:17::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-18.17:43:17::SCWPlatform::Started generating the artifacts for system configuration Testgame_wrapper
+LOG::2024-12-18.17:43:17::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-12-18.17:43:17::SCWDomain::Generating domain artifcats
+TRACE::2024-12-18.17:43:17::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-18.17:43:17::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::Completed writing the mss file at E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2024-12-18.17:43:17::SCWMssOS::Mss edits present, copying mssfile into export location E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-18.17:43:17::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-18.17:43:17::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-12-18.17:43:17::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-12-18.17:43:17::SCWMssOS::Copying to export directory.
+TRACE::2024-12-18.17:43:17::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-12-18.17:43:17::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-12-18.17:43:17::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-12-18.17:43:17::SCWSystem::Completed Processing the sysconfig Testgame_wrapper
+LOG::2024-12-18.17:43:17::SCWPlatform::Completed generating the artifacts for system configuration Testgame_wrapper
+TRACE::2024-12-18.17:43:17::SCWPlatform::Started preparing the platform 
+TRACE::2024-12-18.17:43:17::SCWSystem::Writing the bif file for system config Testgame_wrapper
+TRACE::2024-12-18.17:43:17::SCWSystem::dir created 
+TRACE::2024-12-18.17:43:17::SCWSystem::Writing the bif 
+TRACE::2024-12-18.17:43:17::SCWPlatform::Started writing the spfm file 
+TRACE::2024-12-18.17:43:17::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-12-18.17:43:17::SCWPlatform::Completed generating the platform
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.17:43:17::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2024-12-18.17:43:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.17:43:17::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.17:43:17::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.17:43:17::SCWWriter::formatted JSON is {
+	"platformName":	"Testgame_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Testgame_wrapper",
+	"platHandOff":	"E:/Vivado/TestIP/Testgame_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Testgame_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Testgame_wrapper",
+	"systems":	[{
+			"systemName":	"Testgame_wrapper",
+			"systemDesc":	"Testgame_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Testgame_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"eb7e48c88e40d06a019ae550c25efe9f",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-12-18.17:43:17::SCWPlatform::updated the xpfm file.
+TRACE::2024-12-18.20:01:41::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.20:01:41::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.20:01:41::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-12-18.20:01:41::SCWPlatform::Opened new HwDB with name Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWReader::Active system found as  Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWReader::Handling sysconfig Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWDomain::checking for install qemu data   : 
+TRACE::2024-12-18.20:01:41::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.20:01:41::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.20:01:41::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.20:01:41::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.20:01:41::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.20:01:41::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.20:01:41::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.20:01:41::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.20:01:41::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.20:01:41::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:41::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/LEDRGB_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-18.20:01:41::SCWMssOS::No sw design opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:41::SCWMssOS::mss exists loading the mss file  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:41::SCWMssOS::Opened the sw design from mss  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:41::SCWMssOS::Adding the swdes entry E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-12-18.20:01:41::SCWMssOS::updating the scw layer about changes
+TRACE::2024-12-18.20:01:41::SCWMssOS::Opened the sw design.  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:41::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-12-18.20:01:41::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-12-18.20:01:41::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.20:01:41::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.20:01:41::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.20:01:41::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:41::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/LEDRGB_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2024-12-18.20:01:41::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:41::SCWReader::No isolation master present  
+LOG::2024-12-18.20:01:41::SCWPlatform::Started generating the artifacts platform Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-18.20:01:41::SCWPlatform::Started generating the artifacts for system configuration Testgame_wrapper
+LOG::2024-12-18.20:01:41::SCWSystem::Checking the domain standalone_domain
+LOG::2024-12-18.20:01:41::SCWSystem::Not a boot domain 
+LOG::2024-12-18.20:01:41::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-12-18.20:01:41::SCWDomain::Generating domain artifcats
+TRACE::2024-12-18.20:01:41::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-18.20:01:41::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-18.20:01:41::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.20:01:41::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:41::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.20:01:41::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-18.20:01:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.20:01:41::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:41::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/LEDRGB_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2024-12-18.20:01:41::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:41::SCWMssOS::Completed writing the mss file at E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2024-12-18.20:01:41::SCWMssOS::Mss edits present, copying mssfile into export location E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:42::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-18.20:01:42::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-18.20:01:42::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-12-18.20:01:42::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-18.20:01:42::SCWMssOS::System Command Ran  E: & cd  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp & make 
+TRACE::2024-12-18.20:01:42::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2024-12-18.20:01:42::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-18.20:01:42::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-18.20:01:42::SCWMssOS::-Wextra"
+
+TRACE::2024-12-18.20:01:42::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2024-12-18.20:01:42::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-18.20:01:42::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-18.20:01:42::SCWMssOS::-Wextra"
+
+TRACE::2024-12-18.20:01:42::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2024-12-18.20:01:42::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-18.20:01:42::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-18.20:01:42::SCWMssOS::-Wextra"
+
+TRACE::2024-12-18.20:01:42::SCWMssOS::"Running Make include in microblaze_0/libsrc/pmosip_v1_0/src"
+
+TRACE::2024-12-18.20:01:42::SCWMssOS::make -C microblaze_0/libsrc/pmosip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-12-18.20:01:42::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2024-12-18.20:01:42::SCWMssOS::l -Wextra"
+
+TRACE::2024-12-18.20:01:42::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_v4_5/src"
+
+TRACE::2024-12-18.20:01:42::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2024-12-18.20:01:42::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2024-12-18.20:01:42::SCWMssOS::Wextra"
+
+TRACE::2024-12-18.20:01:42::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-12-18.20:01:42::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-18.20:01:42::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-12-18.20:01:42::SCWMssOS::-Wall -Wextra"
+
+TRACE::2024-12-18.20:01:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2024-12-18.20:01:43::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-12-18.20:01:43::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-12-18.20:01:43::SCWMssOS::all -Wextra"
+
+TRACE::2024-12-18.20:01:43::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2024-12-18.20:01:43::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-18.20:01:43::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-12-18.20:01:43::SCWMssOS::xtra"
+
+TRACE::2024-12-18.20:01:43::SCWMssOS::"Compiling bram"
+
+TRACE::2024-12-18.20:01:43::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2024-12-18.20:01:43::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-18.20:01:43::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-12-18.20:01:43::SCWMssOS::xtra"
+
+TRACE::2024-12-18.20:01:43::SCWMssOS::"Compiling cpu"
+
+TRACE::2024-12-18.20:01:44::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2024-12-18.20:01:44::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-18.20:01:44::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-12-18.20:01:44::SCWMssOS::xtra"
+
+TRACE::2024-12-18.20:01:44::SCWMssOS::"Compiling gpio"
+
+TRACE::2024-12-18.20:01:44::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pmosip_v1_0/src"
+
+TRACE::2024-12-18.20:01:44::SCWMssOS::make -C microblaze_0/libsrc/pmosip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2024-12-18.20:01:44::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2024-12-18.20:01:44::SCWMssOS::Wextra"
+
+TRACE::2024-12-18.20:01:44::SCWMssOS::"Compiling pmosip..."
+
+TRACE::2024-12-18.20:01:45::SCWMssOS::"Running Make libs in microblaze_0/libsrc/spi_v4_5/src"
+
+TRACE::2024-12-18.20:01:45::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2024-12-18.20:01:45::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2024-12-18.20:01:45::SCWMssOS::tra"
+
+TRACE::2024-12-18.20:01:45::SCWMssOS::"Compiling spi"
+
+TRACE::2024-12-18.20:01:45::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-12-18.20:01:45::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-12-18.20:01:45::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2024-12-18.20:01:45::SCWMssOS::ll -Wextra"
+
+TRACE::2024-12-18.20:01:45::SCWMssOS::"Compiling standalone";
+
+TRACE::2024-12-18.20:01:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2024-12-18.20:01:48::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-18.20:01:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-12-18.20:01:48::SCWMssOS:: -Wextra"
+
+TRACE::2024-12-18.20:01:48::SCWMssOS::"Compiling uartlite"
+
+TRACE::2024-12-18.20:01:49::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-12-18.20:01:49::SCWMssOS::Copying to export directory.
+TRACE::2024-12-18.20:01:49::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-12-18.20:01:49::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-12-18.20:01:49::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-12-18.20:01:49::SCWSystem::Completed Processing the sysconfig Testgame_wrapper
+LOG::2024-12-18.20:01:49::SCWPlatform::Completed generating the artifacts for system configuration Testgame_wrapper
+TRACE::2024-12-18.20:01:49::SCWPlatform::Started preparing the platform 
+TRACE::2024-12-18.20:01:49::SCWSystem::Writing the bif file for system config Testgame_wrapper
+TRACE::2024-12-18.20:01:49::SCWSystem::dir created 
+TRACE::2024-12-18.20:01:49::SCWSystem::Writing the bif 
+TRACE::2024-12-18.20:01:49::SCWPlatform::Started writing the spfm file 
+TRACE::2024-12-18.20:01:49::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-12-18.20:01:49::SCWPlatform::Completed generating the platform
+TRACE::2024-12-18.20:01:49::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:49::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:49::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:49::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.20:01:49::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:49::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.20:01:49::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-18.20:01:49::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-18.20:01:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.20:01:49::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:49::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/LEDRGB_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2024-12-18.20:01:49::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:49::SCWWriter::formatted JSON is {
+	"platformName":	"Testgame_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Testgame_wrapper",
+	"platHandOff":	"E:/Vivado/TestIP/Testgame_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Testgame_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Testgame_wrapper",
+	"systems":	[{
+			"systemName":	"Testgame_wrapper",
+			"systemDesc":	"Testgame_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Testgame_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"eb7e48c88e40d06a019ae550c25efe9f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-12-18.20:01:49::SCWPlatform::updated the xpfm file.
+TRACE::2024-12-18.20:01:49::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:49::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:49::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:49::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-18.20:01:49::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-18.20:01:49::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-18.20:01:49::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-18.20:01:49::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-18.20:01:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-18.20:01:49::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-18.20:01:49::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/LEDRGB_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2024-12-18.20:01:49::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:09:53::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-26.15:09:53::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-26.15:09:53::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-12-26.15:09:53::SCWPlatform::Opened new HwDB with name Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWReader::Active system found as  Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWReader::Handling sysconfig Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWDomain::checking for install qemu data   : 
+TRACE::2024-12-26.15:09:53::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-26.15:09:53::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-26.15:09:53::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-26.15:09:53::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-26.15:09:53::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-26.15:09:53::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-26.15:09:53::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-26.15:09:53::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-26.15:09:53::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-26.15:09:53::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:09:53::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/LEDRGB_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+E:/Vivado/Test/TestIPpwm_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-12-26.15:09:53::SCWMssOS::No sw design opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:09:53::SCWMssOS::mss exists loading the mss file  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:09:53::SCWMssOS::Opened the sw design from mss  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:09:53::SCWMssOS::Adding the swdes entry E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system_1
+TRACE::2024-12-26.15:09:53::SCWMssOS::updating the scw layer about changes
+TRACE::2024-12-26.15:09:53::SCWMssOS::Opened the sw design.  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:09:53::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-12-26.15:09:53::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-12-26.15:09:53::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-26.15:09:53::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-26.15:09:53::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-26.15:09:53::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:09:53::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/LEDRGB_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+E:/Vivado/Test/TestIPpwm_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+
+TRACE::2024-12-26.15:09:53::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:09:53::SCWReader::No isolation master present  
+LOG::2024-12-26.15:09:53::SCWPlatform::Started generating the artifacts platform Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-26.15:09:53::SCWPlatform::Started generating the artifacts for system configuration Testgame_wrapper
+LOG::2024-12-26.15:09:53::SCWSystem::Checking the domain standalone_domain
+LOG::2024-12-26.15:09:53::SCWSystem::Not a boot domain 
+LOG::2024-12-26.15:09:53::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-12-26.15:09:53::SCWDomain::Generating domain artifcats
+TRACE::2024-12-26.15:09:53::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-26.15:09:53::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-26.15:09:53::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-26.15:09:53::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:09:53::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-26.15:09:53::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-26.15:09:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-26.15:09:53::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:09:53::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/LEDRGB_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+E:/Vivado/Test/TestIPpwm_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+
+TRACE::2024-12-26.15:09:53::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:09:53::SCWMssOS::Completed writing the mss file at E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2024-12-26.15:09:53::SCWMssOS::Mss edits present, copying mssfile into export location E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:09:53::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-26.15:09:53::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-26.15:09:53::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-12-26.15:09:53::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-26.15:09:53::SCWMssOS::System Command Ran  E: & cd  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp & make 
+TRACE::2024-12-26.15:09:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2024-12-26.15:09:53::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-26.15:09:53::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-26.15:09:53::SCWMssOS::-Wextra"
+
+TRACE::2024-12-26.15:09:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2024-12-26.15:09:53::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-26.15:09:53::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-26.15:09:53::SCWMssOS::-Wextra"
+
+TRACE::2024-12-26.15:09:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2024-12-26.15:09:53::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-26.15:09:53::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-26.15:09:53::SCWMssOS::-Wextra"
+
+TRACE::2024-12-26.15:09:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/pmosip_v1_0/src"
+
+TRACE::2024-12-26.15:09:53::SCWMssOS::make -C microblaze_0/libsrc/pmosip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-12-26.15:09:53::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2024-12-26.15:09:53::SCWMssOS::l -Wextra"
+
+TRACE::2024-12-26.15:09:54::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_v4_5/src"
+
+TRACE::2024-12-26.15:09:54::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2024-12-26.15:09:54::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2024-12-26.15:09:54::SCWMssOS::Wextra"
+
+TRACE::2024-12-26.15:09:54::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-12-26.15:09:54::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-26.15:09:54::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-12-26.15:09:54::SCWMssOS::-Wall -Wextra"
+
+TRACE::2024-12-26.15:09:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2024-12-26.15:09:55::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-12-26.15:09:55::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-12-26.15:09:55::SCWMssOS::all -Wextra"
+
+TRACE::2024-12-26.15:09:55::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2024-12-26.15:09:55::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-26.15:09:55::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-12-26.15:09:55::SCWMssOS::xtra"
+
+TRACE::2024-12-26.15:09:55::SCWMssOS::"Compiling bram"
+
+TRACE::2024-12-26.15:09:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2024-12-26.15:09:56::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-26.15:09:56::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-12-26.15:09:56::SCWMssOS::xtra"
+
+TRACE::2024-12-26.15:09:56::SCWMssOS::"Compiling cpu"
+
+TRACE::2024-12-26.15:09:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2024-12-26.15:09:56::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-26.15:09:56::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-12-26.15:09:56::SCWMssOS::xtra"
+
+TRACE::2024-12-26.15:09:56::SCWMssOS::"Compiling gpio"
+
+TRACE::2024-12-26.15:09:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pmosip_v1_0/src"
+
+TRACE::2024-12-26.15:09:56::SCWMssOS::make -C microblaze_0/libsrc/pmosip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2024-12-26.15:09:56::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2024-12-26.15:09:56::SCWMssOS::Wextra"
+
+TRACE::2024-12-26.15:09:57::SCWMssOS::"Compiling pmosip..."
+
+TRACE::2024-12-26.15:09:57::SCWMssOS::"Running Make libs in microblaze_0/libsrc/spi_v4_5/src"
+
+TRACE::2024-12-26.15:09:57::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2024-12-26.15:09:57::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2024-12-26.15:09:57::SCWMssOS::tra"
+
+TRACE::2024-12-26.15:09:57::SCWMssOS::"Compiling spi"
+
+TRACE::2024-12-26.15:09:58::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-12-26.15:09:58::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-12-26.15:09:58::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2024-12-26.15:09:58::SCWMssOS::ll -Wextra"
+
+TRACE::2024-12-26.15:09:58::SCWMssOS::"Compiling standalone";
+
+TRACE::2024-12-26.15:10:01::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2024-12-26.15:10:01::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-26.15:10:01::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-12-26.15:10:01::SCWMssOS:: -Wextra"
+
+TRACE::2024-12-26.15:10:01::SCWMssOS::"Compiling uartlite"
+
+TRACE::2024-12-26.15:10:02::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-12-26.15:10:02::SCWMssOS::Copying to export directory.
+TRACE::2024-12-26.15:10:02::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-12-26.15:10:02::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-12-26.15:10:02::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-12-26.15:10:02::SCWSystem::Completed Processing the sysconfig Testgame_wrapper
+LOG::2024-12-26.15:10:02::SCWPlatform::Completed generating the artifacts for system configuration Testgame_wrapper
+TRACE::2024-12-26.15:10:02::SCWPlatform::Started preparing the platform 
+TRACE::2024-12-26.15:10:02::SCWSystem::Writing the bif file for system config Testgame_wrapper
+TRACE::2024-12-26.15:10:02::SCWSystem::dir created 
+TRACE::2024-12-26.15:10:02::SCWSystem::Writing the bif 
+TRACE::2024-12-26.15:10:02::SCWPlatform::Started writing the spfm file 
+TRACE::2024-12-26.15:10:02::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-12-26.15:10:02::SCWPlatform::Completed generating the platform
+TRACE::2024-12-26.15:10:02::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:10:02::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:10:02::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:10:02::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-26.15:10:02::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:10:02::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-26.15:10:02::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-26.15:10:02::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-26.15:10:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-26.15:10:02::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:10:02::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/LEDRGB_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+E:/Vivado/Test/TestIPpwm_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+
+TRACE::2024-12-26.15:10:02::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:10:02::SCWWriter::formatted JSON is {
+	"platformName":	"Testgame_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Testgame_wrapper",
+	"platHandOff":	"E:/Vivado/TestIP/Testgame_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Testgame_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Testgame_wrapper",
+	"systems":	[{
+			"systemName":	"Testgame_wrapper",
+			"systemDesc":	"Testgame_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Testgame_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"eb7e48c88e40d06a019ae550c25efe9f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-12-26.15:10:02::SCWPlatform::updated the xpfm file.
+TRACE::2024-12-26.15:10:02::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:10:02::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:10:02::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:10:02::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2024-12-26.15:10:02::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2024-12-26.15:10:02::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2024-12-26.15:10:02::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper
+TRACE::2024-12-26.15:10:02::SCWPlatform::Opened existing hwdb Testgame_wrapper
+TRACE::2024-12-26.15:10:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-26.15:10:02::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-12-26.15:10:02::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/LEDRGB_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+E:/Vivado/Test/TestIPpwm_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+
+TRACE::2024-12-26.15:10:02::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:16:53::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:53::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:53::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2025-01-13.17:16:55::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-01-13.17:16:55::SCWPlatform::Opened new HwDB with name Testgame_wrapper_0
+TRACE::2025-01-13.17:16:55::SCWReader::Active system found as  Testgame_wrapper
+TRACE::2025-01-13.17:16:55::SCWReader::Handling sysconfig Testgame_wrapper
+TRACE::2025-01-13.17:16:55::SCWDomain::checking for install qemu data   : 
+TRACE::2025-01-13.17:16:55::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2025-01-13.17:16:55::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-01-13.17:16:55::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2025-01-13.17:16:55::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-01-13.17:16:55::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2025-01-13.17:16:55::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-01-13.17:16:55::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:16:55::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-01-13.17:16:55::SCWMssOS::No sw design opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:16:55::SCWMssOS::mss exists loading the mss file  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:16:55::SCWMssOS::Opened the sw design from mss  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:16:55::SCWMssOS::Adding the swdes entry E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2025-01-13.17:16:55::SCWMssOS::updating the scw layer about changes
+TRACE::2025-01-13.17:16:55::SCWMssOS::Opened the sw design.  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:16:55::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-01-13.17:16:55::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-01-13.17:16:55::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2025-01-13.17:16:55::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-01-13.17:16:55::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:16:55::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2025-01-13.17:16:55::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:16:55::SCWReader::No isolation master present  
+LOG::2025-01-13.17:16:55::SCWPlatform::Started generating the artifacts platform Testgame_wrapper
+TRACE::2025-01-13.17:16:55::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-01-13.17:16:55::SCWPlatform::Started generating the artifacts for system configuration Testgame_wrapper
+LOG::2025-01-13.17:16:55::SCWSystem::Checking the domain standalone_domain
+LOG::2025-01-13.17:16:55::SCWSystem::Not a boot domain 
+LOG::2025-01-13.17:16:55::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2025-01-13.17:16:55::SCWDomain::Generating domain artifcats
+TRACE::2025-01-13.17:16:55::SCWMssOS::Generating standalone artifcats
+TRACE::2025-01-13.17:16:55::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-01-13.17:16:55::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2025-01-13.17:16:55::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:16:55::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2025-01-13.17:16:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-01-13.17:16:55::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:16:55::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2025-01-13.17:16:55::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:16:55::SCWMssOS::Completed writing the mss file at E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2025-01-13.17:16:55::SCWMssOS::Mss edits present, copying mssfile into export location E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:16:55::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-01-13.17:16:55::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-01-13.17:16:55::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2025-01-13.17:16:55::SCWMssOS::doing bsp build ... 
+TRACE::2025-01-13.17:16:55::SCWMssOS::System Command Ran  E: & cd  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp & make 
+TRACE::2025-01-13.17:16:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2025-01-13.17:16:56::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-01-13.17:16:56::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2025-01-13.17:16:56::SCWMssOS::-Wextra"
+
+TRACE::2025-01-13.17:16:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2025-01-13.17:16:56::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-01-13.17:16:56::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2025-01-13.17:16:56::SCWMssOS::-Wextra"
+
+TRACE::2025-01-13.17:16:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2025-01-13.17:16:56::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-01-13.17:16:56::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2025-01-13.17:16:56::SCWMssOS::-Wextra"
+
+TRACE::2025-01-13.17:16:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/pmosip_v1_0/src"
+
+TRACE::2025-01-13.17:16:56::SCWMssOS::make -C microblaze_0/libsrc/pmosip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2025-01-13.17:16:56::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2025-01-13.17:16:56::SCWMssOS::l -Wextra"
+
+TRACE::2025-01-13.17:16:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_v4_5/src"
+
+TRACE::2025-01-13.17:16:56::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2025-01-13.17:16:56::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2025-01-13.17:16:56::SCWMssOS::Wextra"
+
+TRACE::2025-01-13.17:16:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2025-01-13.17:16:57::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-01-13.17:16:57::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2025-01-13.17:16:57::SCWMssOS::-Wall -Wextra"
+
+TRACE::2025-01-13.17:16:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2025-01-13.17:16:58::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-01-13.17:16:58::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2025-01-13.17:16:58::SCWMssOS::all -Wextra"
+
+TRACE::2025-01-13.17:16:58::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2025-01-13.17:16:58::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-01-13.17:16:58::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2025-01-13.17:16:58::SCWMssOS::xtra"
+
+TRACE::2025-01-13.17:16:58::SCWMssOS::"Compiling bram"
+
+TRACE::2025-01-13.17:17:02::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2025-01-13.17:17:02::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-01-13.17:17:02::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2025-01-13.17:17:02::SCWMssOS::xtra"
+
+TRACE::2025-01-13.17:17:02::SCWMssOS::"Compiling cpu"
+
+TRACE::2025-01-13.17:17:02::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2025-01-13.17:17:02::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-01-13.17:17:02::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2025-01-13.17:17:02::SCWMssOS::xtra"
+
+TRACE::2025-01-13.17:17:02::SCWMssOS::"Compiling gpio"
+
+TRACE::2025-01-13.17:17:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pmosip_v1_0/src"
+
+TRACE::2025-01-13.17:17:03::SCWMssOS::make -C microblaze_0/libsrc/pmosip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2025-01-13.17:17:03::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2025-01-13.17:17:03::SCWMssOS::Wextra"
+
+TRACE::2025-01-13.17:17:03::SCWMssOS::"Compiling pmosip..."
+
+TRACE::2025-01-13.17:17:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/spi_v4_5/src"
+
+TRACE::2025-01-13.17:17:03::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2025-01-13.17:17:03::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2025-01-13.17:17:03::SCWMssOS::tra"
+
+TRACE::2025-01-13.17:17:03::SCWMssOS::"Compiling spi"
+
+TRACE::2025-01-13.17:17:04::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2025-01-13.17:17:04::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-01-13.17:17:04::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2025-01-13.17:17:04::SCWMssOS::ll -Wextra"
+
+TRACE::2025-01-13.17:17:04::SCWMssOS::"Compiling standalone";
+
+TRACE::2025-01-13.17:17:07::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2025-01-13.17:17:07::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-01-13.17:17:07::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2025-01-13.17:17:07::SCWMssOS:: -Wextra"
+
+TRACE::2025-01-13.17:17:07::SCWMssOS::"Compiling uartlite"
+
+TRACE::2025-01-13.17:17:08::SCWMssOS::'Finished building libraries'
+
+TRACE::2025-01-13.17:17:08::SCWMssOS::Copying to export directory.
+TRACE::2025-01-13.17:17:08::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-01-13.17:17:08::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-01-13.17:17:08::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2025-01-13.17:17:08::SCWSystem::Completed Processing the sysconfig Testgame_wrapper
+LOG::2025-01-13.17:17:08::SCWPlatform::Completed generating the artifacts for system configuration Testgame_wrapper
+TRACE::2025-01-13.17:17:08::SCWPlatform::Started preparing the platform 
+TRACE::2025-01-13.17:17:08::SCWSystem::Writing the bif file for system config Testgame_wrapper
+TRACE::2025-01-13.17:17:08::SCWSystem::dir created 
+TRACE::2025-01-13.17:17:08::SCWSystem::Writing the bif 
+TRACE::2025-01-13.17:17:08::SCWPlatform::Started writing the spfm file 
+TRACE::2025-01-13.17:17:08::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-01-13.17:17:08::SCWPlatform::Completed generating the platform
+TRACE::2025-01-13.17:17:08::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:17:08::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:17:08::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:17:08::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2025-01-13.17:17:08::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:17:08::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2025-01-13.17:17:08::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2025-01-13.17:17:08::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2025-01-13.17:17:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-01-13.17:17:08::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:17:08::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2025-01-13.17:17:08::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:17:08::SCWWriter::formatted JSON is {
+	"platformName":	"Testgame_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Testgame_wrapper",
+	"platHandOff":	"E:/Vivado/TestIP/Testgame_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Testgame_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Testgame_wrapper",
+	"systems":	[{
+			"systemName":	"Testgame_wrapper",
+			"systemDesc":	"Testgame_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Testgame_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"eb7e48c88e40d06a019ae550c25efe9f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-01-13.17:17:08::SCWPlatform::updated the xpfm file.
+TRACE::2025-01-13.17:17:09::SCWPlatform::Trying to open the hw design at E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:17:09::SCWPlatform::DSA given E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:17:09::SCWPlatform::DSA absoulate path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:17:09::SCWPlatform::DSA directory E:/Vivado/Test/Testgame_wrapper/hw
+TRACE::2025-01-13.17:17:09::SCWPlatform:: Platform Path E:/Vivado/Test/Testgame_wrapper/hw/Testgame_wrapper.xsa
+TRACE::2025-01-13.17:17:09::SCWPlatform:: Unique name xilinx:zedboard::0.0
+TRACE::2025-01-13.17:17:09::SCWPlatform::Trying to set the existing hwdb with name Testgame_wrapper_0
+TRACE::2025-01-13.17:17:09::SCWPlatform::Opened existing hwdb Testgame_wrapper_0
+TRACE::2025-01-13.17:17:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-01-13.17:17:09::SCWMssOS::Checking the sw design at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-01-13.17:17:09::SCWMssOS::DEBUG:  swdes dump  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2025-01-13.17:17:09::SCWMssOS::Sw design exists and opened at  E:/Vivado/Test/Testgame_wrapper/microblaze_0/standalone_domain/bsp/system.mss

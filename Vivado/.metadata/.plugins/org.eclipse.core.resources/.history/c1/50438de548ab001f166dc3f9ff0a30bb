@@ -1,0 +1,88 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xspi.h"
+
+#define SPI_DEVICE_ID XPAR_AXI_QUAD_SPI_0_DEVICE_ID
+
+#define MAX7219_REG_NO_OP        0x00
+#define MAX7219_REG_DIGIT0       0x01
+#define MAX7219_REG_DIGIT1       0x02
+#define MAX7219_REG_DIGIT2       0x03
+#define MAX7219_REG_DIGIT3       0x04
+#define MAX7219_REG_DIGIT4       0x05
+#define MAX7219_REG_DIGIT5       0x06
+#define MAX7219_REG_DIGIT6       0x07
+#define MAX7219_REG_DIGIT7       0x08
+#define MAX7219_REG_DECODE_MODE  0x09
+#define MAX7219_REG_INTENSITY    0x0A
+#define MAX7219_REG_SCAN_LIMIT   0x0B
+#define MAX7219_REG_SHUTDOWN     0x0C
+#define MAX7219_REG_DISPLAY_TEST 0x0F
+
+XSpi_Config *xspi_config;
+XSpi spi;
+
+void spi_send_data(uint8_t address, uint8_t data) {
+    uint8_t send_buffer[2];
+    send_buffer[0] = address;
+    send_buffer[1] = data;
+
+    XSpi_Transfer(&spi, send_buffer, NULL, 2);
+}
+
+void spi_init() {
+    xspi_config = XSpi_LookupConfig(SPI_DEVICE_ID);
+    if (xspi_config == NULL) {
+        xil_printf("\nSPI CONFIG NOT FOUND\n");
+        return;
+    }
+
+    int status = XSpi_CfgInitialize(&spi, xspi_config, xspi_config->BaseAddress);
+    if (status != XST_SUCCESS) {
+        xil_printf("\nSPI INIT FAILED\n");
+        return;
+    }
+
+    XSpi_SetOptions(&spi, XSP_MASTER_OPTION | XSP_MANUAL_SSELECT_OPTION);
+    XSpi_Start(&spi);
+    XSpi_IntrGlobalDisable(&spi);
+
+    xil_printf("\nSPI INIT SUCCESSFUL\n");
+}
+
+void max7219_init() {
+    spi_send_data(MAX7219_REG_SCAN_LIMIT, 0x07);
+    spi_send_data(MAX7219_REG_DECODE_MODE, 0x00);
+    spi_send_data(MAX7219_REG_INTENSITY, 0x0F);
+    spi_send_data(MAX7219_REG_SHUTDOWN, 0x01);
+    xil_printf("\nMAX7219 INIT DONE\n");
+}
+
+uint8_t letter_A[8] = {
+    0x18, //   XX
+    0x24, //  X  X
+    0x24, //  X  X
+    0x7E, // XXXXXX
+    0x42, // X    X
+    0x42, // X    X
+    0x42, // X    X
+    0x00
+};
+void display_letter(uint8_t *data) {
+    for (int i = 0; i < 8; i++) {
+        spi_send_data(i + 1, data[i]);
+    }
+}
+
+int main() {
+    init_platform();
+    spi_init();
+    max7219_init();
+    display_letter(letter_A);
+
+    print("Displayed Letter A on LED Matrix\n\r");
+
+    cleanup_platform();
+    return 0;
+}

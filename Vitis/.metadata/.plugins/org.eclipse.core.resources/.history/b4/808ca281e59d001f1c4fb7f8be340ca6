@@ -1,0 +1,56 @@
+#include "xparameters.h"
+#include "xuartlite.h"
+#include "xgpio.h"
+#include "xil_printf.h"
+
+XGpio_Config *gpio_config;
+XUartLite_Config *uart_config;
+XUartLite Uart;
+XGpio Gpio;
+
+void uart_init() {
+    XUartLite_Initialize(&Uart,XPAR_AXI_UARTLITE_0_DEVICE_ID);
+}
+
+void gpio_init() {
+    XGpio_Initialize(&Gpio,XPAR_AXI_GPIO_0_BASEADDR);
+    XGpio_SetDataDirection(&Gpio, 1, 0xE3F);
+}
+
+void set_led_color(char color) {
+    switch (color) {
+        case 'r':
+            XGpio_DiscreteWrite(&Gpio, 1, 0x4);
+            break;
+        case 'g':
+            XGpio_DiscreteWrite(&Gpio, 1, 0x2);
+            break;
+        case 'b':
+            XGpio_DiscreteWrite(&Gpio, 1, 0x1);
+            break;
+        case 't':
+            XGpio_DiscreteWrite(&Gpio, 1, 0x0);
+            break;
+        default:
+            xil_printf("Lenh khong hop le\n");
+    }
+}
+
+int main() {
+
+    char RecvChar;
+    uart_init();
+    gpio_init();
+
+    xil_printf("Dieu khien LED RGB qua UART\n");
+
+    while (1) {
+        if (XUartLite_Recv(&Uart, (u8*)&RecvChar, 1) > 0) {
+            set_led_color(RecvChar);
+            xil_printf("Da thuc hien lenh: %c\n", RecvChar);
+
+        }
+    }
+
+    return 0;
+}

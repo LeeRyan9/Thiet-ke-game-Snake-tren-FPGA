@@ -1,0 +1,23 @@
+Nothing to build in platform 'Test_wrapper'
+
+23:18:25 **** Incremental Build of configuration Debug for project TestSPI ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/Vivado/TTCS/Test_wrapper/export/Test_wrapper/sw/Test_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TestSPI.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/Vivado/TTCS/Test_wrapper/export/Test_wrapper/sw/Test_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "TestSPI.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestSPI.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size TestSPI.elf  |tee "TestSPI.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11320	    672	   3208	  15200	   3b60	TestSPI.elf
+'Finished building: TestSPI.elf.size'
+' '
+23:18:29 **** Incremental Build of configuration Debug for project TestSPI_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

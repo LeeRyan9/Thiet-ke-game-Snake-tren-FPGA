@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "pmosip.h"
+#include "xil_io.h"
+int main(){
+    init_platform();
+
+    xil_printf("Test PMOD\n\r");
+    u32 count = 0;
+    while(count <99){
+    	PMOSIP_mWriteReg(XPAR_PMOSIP_0_S_AXI_BASEADDR,0,count);
+    for(int i =0;i<1000000;i++);
+    }
+    cleanup_platform();
+    return 0;
+}

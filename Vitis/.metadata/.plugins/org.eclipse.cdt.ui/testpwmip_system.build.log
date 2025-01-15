@@ -1,0 +1,6 @@
+15:47:00 **** Incremental Build of configuration Debug for project testpwmip_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+15:47:00 Build Finished (took 253ms)
+

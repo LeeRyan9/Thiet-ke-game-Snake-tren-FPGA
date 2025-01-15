@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../TTCS.srcs/sources_1/bd/Testgame/ipshared/4fba" --include "../../../../TTCS.srcs/sources_1/bd/Testgame/ipshared/ec67/hdl" --include "../../../../TTCS.srcs/sources_1/bd/TestSPI/ipshared/4fba" --include "../../../../TTCS.srcs/sources_1/bd/TestSPI/ipshared/ec67/hdl" --include "../../../../TTCS.srcs/sources_1/bd/Test/ipshared/4fba" --include "../../../../TTCS.srcs/sources_1/bd/Test/ipshared/ec67/hdl" \
+"../../../../TTCS.srcs/sources_1/new/BCD8bit.v" \
+"../../../../TTCS.srcs/sim_1/new/BCD8bit_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

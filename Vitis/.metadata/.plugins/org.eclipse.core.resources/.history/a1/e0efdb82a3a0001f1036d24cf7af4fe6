@@ -1,0 +1,51 @@
+#include "xparameters.h"
+#include "xuartlite.h"
+#include "xgpio.h"
+#include "xil_printf.h"
+#include "sleep.h"
+#include "platform.h"
+XUartLite_Config *uart_config;
+XUartLite Uart;
+XGpio_Config *gpio_config;
+XGpio Gpio;
+void gpio_init() {
+    XGpio_Initialize(&Gpio,XPAR_AXI_GPIO_0_DEVICE_ID);
+    XGpio_SetDataDirection(&Gpio, 1, 0x0);
+}
+void uart_init() {
+    XUartLite_Initialize(&Uart,XPAR_AXI_UARTLITE_0_DEVICE_ID);
+}
+void set_color(char color){
+	switch(color){
+	case 'r':
+		XGpio_DiscreteWrite(&Gpio,1,0x100);
+		break;
+	case 'g':
+		XGpio_DiscreteWrite(&Gpio,1,0x080);
+		break;
+	case 'b':
+		XGpio_DiscreteWrite(&Gpio,1,0x040);
+		break;
+	case 't':
+		XGpio_DiscreteWrite(&Gpio,1,0x000);
+		break;
+	default:
+		xil_printf("Nhap lai lenh\n");
+	}
+}
+int main() {
+	init_platform();
+	gpio_init();
+	uart_init();
+	char RecvChar;
+	xil_printf("Nhap r,g,g,t de dieu khien led:\n");
+	while(1){
+		if(XUartLite_Recv(&Uart,(u8 *)&RecvChar,1)>0){
+			set_color(RecvChar);
+			xil_printf("Da thuc hien lenh\n");
+		}
+	}
+	xil_printf("Complete\n");
+	cleanup_platform();
+    return 0;
+}

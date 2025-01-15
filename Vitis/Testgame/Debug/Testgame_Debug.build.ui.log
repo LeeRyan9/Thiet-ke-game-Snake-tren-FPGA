@@ -1,0 +1,21 @@
+2025-01-13T17:41:51.182387800255-17:41:51 **** Incremental Build of configuration Debug for project Testgame ****
+000-make all 
+000-'Building file: ../src/TestPMOD.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/TestPMOD.o" -IE:/Vivado/Test/Testgame_wrapper/export/Testgame_wrapper/sw/Testgame_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/TestPMOD.d" -MT"src/TestPMOD.o" -o "src/TestPMOD.o" "../src/TestPMOD.c"
+000-'Finished building: ../src/TestPMOD.c'
+000-' '
+000-'Building target: Testgame.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/Vivado/Test/Testgame_wrapper/export/Testgame_wrapper/sw/Testgame_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Testgame.elf"  ./src/TestPMOD.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: Testgame.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size Testgame.elf  |tee "Testgame.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-   7952	    632	   3104	  11688	   2da8	Testgame.elf
+000-'Finished building: Testgame.elf.size'
+000-' '
+00255-
+17:41:52 Build Finished (took 816ms)
+

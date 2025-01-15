@@ -1,0 +1,26 @@
+15:09:42 **** Build of configuration Debug for project RGBLED ****
+make all 
+'Building file: ../src/ButtonRGB.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ButtonRGB.o" -IE:/Vivado/Test/LEDRGB_wrapper/export/LEDRGB_wrapper/sw/LEDRGB_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/ButtonRGB.d" -MT"src/ButtonRGB.o" -o "src/ButtonRGB.o" "../src/ButtonRGB.c"
+'Finished building: ../src/ButtonRGB.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IE:/Vivado/Test/LEDRGB_wrapper/export/LEDRGB_wrapper/sw/LEDRGB_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: RGBLED.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/Vivado/Test/LEDRGB_wrapper/export/LEDRGB_wrapper/sw/LEDRGB_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "RGBLED.elf"  ./src/BasicRGB.o ./src/ButtonRGB.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: RGBLED.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size RGBLED.elf  |tee "RGBLED.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8288	    652	   3140	  12080	   2f30	RGBLED.elf
+'Finished building: RGBLED.elf.size'
+' '
+
+15:09:44 Build Finished (took 1s.925ms)
+

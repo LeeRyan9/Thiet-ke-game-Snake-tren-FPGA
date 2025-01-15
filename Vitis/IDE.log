@@ -1,0 +1,1432 @@
+22:07:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+22:07:20 INFO  : XSCT server has started successfully.
+22:07:20 INFO  : plnx-install-location is set to ''
+22:07:20 INFO  : Successfully done setting XSCT server connection channel  
+22:07:20 INFO  : Successfully done setting workspace for the tool. 
+22:07:20 INFO  : Successfully done query RDI_DATADIR 
+22:07:21 INFO  : Registering command handlers for Vitis TCF services
+22:11:09 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:11:59 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:15:09 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:16:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:16:05 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+22:16:05 INFO  : 'jtag frequency' command is executed.
+22:16:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+22:16:06 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit"
+22:16:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:16:06 INFO  : Context for processor 'microblaze_0' is selected.
+22:16:06 INFO  : System reset is completed.
+22:16:09 INFO  : 'after 3000' command is executed.
+22:16:09 INFO  : Context for processor 'microblaze_0' is selected.
+22:16:10 INFO  : The application 'E:/Vivado/Test/RGBLED/Debug/RGBLED.elf' is downloaded to processor 'microblaze_0'.
+22:16:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/RGBLED/Debug/RGBLED.elf
+----------------End of Script----------------
+
+22:16:10 INFO  : Memory regions updated for context MicroBlaze #0
+22:16:10 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+22:16:10 INFO  : Context for processor 'microblaze_0' is selected.
+22:16:10 INFO  : 'con' command is executed.
+22:16:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:16:10 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_rgbled_system_standalone.tcl'
+22:24:28 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:24:57 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:25:12 INFO  : Disconnected from the channel tcfchan#2.
+22:25:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:25:12 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+22:25:12 INFO  : 'jtag frequency' command is executed.
+22:25:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+22:25:13 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit"
+22:25:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:25:13 INFO  : Context for processor 'microblaze_0' is selected.
+22:25:13 INFO  : System reset is completed.
+22:25:16 INFO  : 'after 3000' command is executed.
+22:25:16 INFO  : Context for processor 'microblaze_0' is selected.
+22:25:16 INFO  : The application 'E:/Vivado/Test/RGBLED/Debug/RGBLED.elf' is downloaded to processor 'microblaze_0'.
+22:25:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/RGBLED/Debug/RGBLED.elf
+----------------End of Script----------------
+
+22:25:16 INFO  : Memory regions updated for context MicroBlaze #0
+22:25:16 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+22:25:16 INFO  : Context for processor 'microblaze_0' is selected.
+22:25:16 INFO  : 'con' command is executed.
+22:25:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:25:16 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_rgbled_system_standalone.tcl'
+22:27:35 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:27:48 INFO  : Disconnected from the channel tcfchan#3.
+22:27:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:27:48 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+22:27:48 INFO  : 'jtag frequency' command is executed.
+22:27:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+22:27:50 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit"
+22:27:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:27:50 INFO  : Context for processor 'microblaze_0' is selected.
+22:27:50 INFO  : System reset is completed.
+22:27:53 INFO  : 'after 3000' command is executed.
+22:27:53 INFO  : Context for processor 'microblaze_0' is selected.
+22:27:53 INFO  : The application 'E:/Vivado/Test/RGBLED/Debug/RGBLED.elf' is downloaded to processor 'microblaze_0'.
+22:27:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/RGBLED/Debug/RGBLED.elf
+----------------End of Script----------------
+
+22:27:53 INFO  : Memory regions updated for context MicroBlaze #0
+22:27:53 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+22:27:53 INFO  : Context for processor 'microblaze_0' is selected.
+22:27:53 INFO  : 'con' command is executed.
+22:27:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:27:53 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_rgbled_system_standalone.tcl'
+22:29:14 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:29:30 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:29:40 INFO  : Disconnected from the channel tcfchan#4.
+22:29:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:29:40 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+22:29:40 INFO  : 'jtag frequency' command is executed.
+22:29:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+22:29:42 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit"
+22:29:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:29:42 INFO  : Context for processor 'microblaze_0' is selected.
+22:29:42 INFO  : System reset is completed.
+22:29:45 INFO  : 'after 3000' command is executed.
+22:29:45 INFO  : Context for processor 'microblaze_0' is selected.
+22:29:45 INFO  : The application 'E:/Vivado/Test/RGBLED/Debug/RGBLED.elf' is downloaded to processor 'microblaze_0'.
+22:29:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/RGBLED/Debug/RGBLED.elf
+----------------End of Script----------------
+
+22:29:45 INFO  : Memory regions updated for context MicroBlaze #0
+22:29:45 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+22:29:46 INFO  : Context for processor 'microblaze_0' is selected.
+22:29:46 INFO  : 'con' command is executed.
+22:29:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:29:46 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_rgbled_system_standalone.tcl'
+22:30:14 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:30:23 INFO  : Disconnected from the channel tcfchan#5.
+22:30:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:30:23 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+22:30:23 INFO  : 'jtag frequency' command is executed.
+22:30:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+22:30:25 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit"
+22:30:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:30:25 INFO  : Context for processor 'microblaze_0' is selected.
+22:30:25 INFO  : System reset is completed.
+22:30:28 INFO  : 'after 3000' command is executed.
+22:30:28 INFO  : Context for processor 'microblaze_0' is selected.
+22:30:28 INFO  : The application 'E:/Vivado/Test/RGBLED/Debug/RGBLED.elf' is downloaded to processor 'microblaze_0'.
+22:30:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/RGBLED/Debug/RGBLED.elf
+----------------End of Script----------------
+
+22:30:28 INFO  : Memory regions updated for context MicroBlaze #0
+22:30:28 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+22:30:28 INFO  : Context for processor 'microblaze_0' is selected.
+22:30:28 INFO  : 'con' command is executed.
+22:30:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:30:28 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_rgbled_system_standalone.tcl'
+22:31:24 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:31:32 INFO  : Disconnected from the channel tcfchan#6.
+22:31:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:31:32 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+22:31:32 INFO  : 'jtag frequency' command is executed.
+22:31:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+22:31:33 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit"
+22:31:33 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:31:33 INFO  : Context for processor 'microblaze_0' is selected.
+22:31:33 INFO  : System reset is completed.
+22:31:36 INFO  : 'after 3000' command is executed.
+22:31:36 INFO  : Context for processor 'microblaze_0' is selected.
+22:31:36 INFO  : The application 'E:/Vivado/Test/RGBLED/Debug/RGBLED.elf' is downloaded to processor 'microblaze_0'.
+22:31:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/RGBLED/Debug/RGBLED.elf
+----------------End of Script----------------
+
+22:31:36 INFO  : Memory regions updated for context MicroBlaze #0
+22:31:36 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+22:31:36 INFO  : Context for processor 'microblaze_0' is selected.
+22:31:36 INFO  : 'con' command is executed.
+22:31:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:31:36 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_rgbled_system_standalone.tcl'
+22:32:22 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:32:32 INFO  : Disconnected from the channel tcfchan#7.
+22:32:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:32:32 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+22:32:32 INFO  : 'jtag frequency' command is executed.
+22:32:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+22:32:33 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit"
+22:32:33 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:32:33 INFO  : Context for processor 'microblaze_0' is selected.
+22:32:33 INFO  : System reset is completed.
+22:32:36 INFO  : 'after 3000' command is executed.
+22:32:36 INFO  : Context for processor 'microblaze_0' is selected.
+22:32:36 INFO  : The application 'E:/Vivado/Test/RGBLED/Debug/RGBLED.elf' is downloaded to processor 'microblaze_0'.
+22:32:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/RGBLED/Debug/RGBLED.elf
+----------------End of Script----------------
+
+22:32:36 INFO  : Memory regions updated for context MicroBlaze #0
+22:32:36 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+22:32:36 INFO  : Context for processor 'microblaze_0' is selected.
+22:32:36 INFO  : 'con' command is executed.
+22:32:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:32:36 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_rgbled_system_standalone.tcl'
+22:33:09 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:33:17 INFO  : Disconnected from the channel tcfchan#8.
+22:33:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:33:18 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+22:33:18 INFO  : 'jtag frequency' command is executed.
+22:33:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+22:33:19 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit"
+22:33:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:33:19 INFO  : Context for processor 'microblaze_0' is selected.
+22:33:19 INFO  : System reset is completed.
+22:33:22 INFO  : 'after 3000' command is executed.
+22:33:22 INFO  : Context for processor 'microblaze_0' is selected.
+22:33:22 INFO  : The application 'E:/Vivado/Test/RGBLED/Debug/RGBLED.elf' is downloaded to processor 'microblaze_0'.
+22:33:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/RGBLED/Debug/RGBLED.elf
+----------------End of Script----------------
+
+22:33:22 INFO  : Memory regions updated for context MicroBlaze #0
+22:33:22 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+22:33:22 INFO  : Context for processor 'microblaze_0' is selected.
+22:33:22 INFO  : 'con' command is executed.
+22:33:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:33:22 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_rgbled_system_standalone.tcl'
+22:43:48 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+22:44:00 INFO  : Disconnected from the channel tcfchan#9.
+22:44:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:44:00 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+22:44:00 INFO  : 'jtag frequency' command is executed.
+22:44:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+22:44:01 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit"
+22:44:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:44:01 INFO  : Context for processor 'microblaze_0' is selected.
+22:44:01 INFO  : System reset is completed.
+22:44:04 INFO  : 'after 3000' command is executed.
+22:44:04 INFO  : Context for processor 'microblaze_0' is selected.
+22:44:05 INFO  : The application 'E:/Vivado/Test/RGBLED/Debug/RGBLED.elf' is downloaded to processor 'microblaze_0'.
+22:44:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/RGBLED/Debug/RGBLED.elf
+----------------End of Script----------------
+
+22:44:05 INFO  : Memory regions updated for context MicroBlaze #0
+22:44:05 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+22:44:05 INFO  : Context for processor 'microblaze_0' is selected.
+22:44:05 INFO  : 'con' command is executed.
+22:44:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:44:05 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_rgbled_system_standalone.tcl'
+22:45:15 INFO  : Disconnected from the channel tcfchan#10.
+10:30:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+10:30:08 INFO  : Registering command handlers for Vitis TCF services
+10:30:09 INFO  : XSCT server has started successfully.
+10:30:09 INFO  : plnx-install-location is set to ''
+10:30:18 INFO  : Successfully done setting XSCT server connection channel  
+10:30:18 INFO  : Successfully done query RDI_DATADIR 
+10:30:18 INFO  : Successfully done setting workspace for the tool. 
+08:31:53 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+08:31:57 INFO  : XSCT server has started successfully.
+08:31:57 INFO  : plnx-install-location is set to ''
+08:31:57 INFO  : Successfully done setting XSCT server connection channel  
+08:31:57 INFO  : Successfully done setting workspace for the tool. 
+08:31:58 INFO  : Registering command handlers for Vitis TCF services
+08:32:04 INFO  : Successfully done query RDI_DATADIR 
+10:09:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+10:09:45 INFO  : XSCT server has started successfully.
+10:09:45 INFO  : plnx-install-location is set to ''
+10:09:45 INFO  : Successfully done setting XSCT server connection channel  
+10:09:45 INFO  : Successfully done setting workspace for the tool. 
+10:09:47 INFO  : Registering command handlers for Vitis TCF services
+10:09:49 INFO  : Successfully done query RDI_DATADIR 
+21:37:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+21:37:19 INFO  : XSCT server has started successfully.
+21:37:19 INFO  : plnx-install-location is set to ''
+21:37:19 INFO  : Successfully done setting XSCT server connection channel  
+21:37:19 INFO  : Successfully done setting workspace for the tool. 
+21:37:21 INFO  : Registering command handlers for Vitis TCF services
+21:37:22 INFO  : Successfully done query RDI_DATADIR 
+21:39:26 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+21:39:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:39:38 INFO  : Jtag cable 'Digilent Arty 210319A2789EA' is selected.
+21:39:38 INFO  : 'jtag frequency' command is executed.
+21:39:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2789EA" && level==0} -index 0' command is executed.
+21:39:39 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit"
+21:39:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:39:39 INFO  : Context for processor 'microblaze_0' is selected.
+21:39:39 INFO  : System reset is completed.
+21:39:42 INFO  : 'after 3000' command is executed.
+21:39:42 INFO  : Context for processor 'microblaze_0' is selected.
+21:39:42 INFO  : The application 'E:/Vivado/Test/RGBLED/Debug/RGBLED.elf' is downloaded to processor 'microblaze_0'.
+21:39:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2789EA" && level==0} -index 0
+fpga -file E:/Vivado/Test/RGBLED/_ide/bitstream/LEDRGB_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/RGBLED/Debug/RGBLED.elf
+----------------End of Script----------------
+
+21:39:42 INFO  : Memory regions updated for context MicroBlaze #0
+21:39:42 INFO  : Memory regions updated for context MicroBlaze #0
+21:39:43 INFO  : Context for processor 'microblaze_0' is selected.
+21:39:43 INFO  : 'con' command is executed.
+21:39:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:39:43 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_rgbled_system_standalone.tcl'
+21:39:52 INFO  : Disconnected from the channel tcfchan#2.
+16:32:45 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+16:32:54 INFO  : Registering command handlers for Vitis TCF services
+16:32:54 INFO  : XSCT server has started successfully.
+16:32:54 INFO  : plnx-install-location is set to ''
+16:33:05 INFO  : Successfully done setting XSCT server connection channel  
+16:33:05 INFO  : Successfully done query RDI_DATADIR 
+16:33:05 INFO  : Successfully done setting workspace for the tool. 
+19:34:58 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+19:35:00 INFO  : XSCT server has started successfully.
+19:35:00 INFO  : plnx-install-location is set to ''
+19:35:00 INFO  : Successfully done setting XSCT server connection channel  
+19:35:00 INFO  : Successfully done setting workspace for the tool. 
+19:35:02 INFO  : Registering command handlers for Vitis TCF services
+19:35:02 INFO  : Successfully done query RDI_DATADIR 
+17:40:00 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+17:40:03 INFO  : XSCT server has started successfully.
+17:40:03 INFO  : plnx-install-location is set to ''
+17:40:03 INFO  : Successfully done setting XSCT server connection channel  
+17:40:03 INFO  : Successfully done setting workspace for the tool. 
+17:40:04 INFO  : Registering command handlers for Vitis TCF services
+17:40:05 INFO  : Successfully done query RDI_DATADIR 
+17:44:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+17:44:37 INFO  : XSCT server has started successfully.
+17:44:37 INFO  : plnx-install-location is set to ''
+17:44:37 INFO  : Successfully done setting XSCT server connection channel  
+17:44:37 INFO  : Successfully done setting workspace for the tool. 
+17:44:37 INFO  : Registering command handlers for Vitis TCF services
+17:44:38 INFO  : Successfully done query RDI_DATADIR 
+20:01:37 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+20:01:49 INFO  : Checking for BSP changes to sync application flags for project 'Testgame'...
+20:02:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:02:18 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B4A283A' is selected.
+20:02:18 INFO  : 'jtag frequency' command is executed.
+20:02:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0' command is executed.
+20:02:20 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+20:02:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:02:20 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:20 INFO  : System reset is completed.
+20:02:23 INFO  : 'after 3000' command is executed.
+20:02:23 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:23 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+20:02:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+20:02:23 INFO  : Memory regions updated for context MicroBlaze #0
+20:02:23 INFO  : Memory regions updated for context MicroBlaze #0
+20:02:23 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:23 INFO  : 'con' command is executed.
+20:02:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:02:23 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+20:04:43 INFO  : Checking for BSP changes to sync application flags for project 'Testgame'...
+20:04:57 INFO  : Disconnected from the channel tcfchan#3.
+20:04:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:04:57 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B4A283A' is selected.
+20:04:57 INFO  : 'jtag frequency' command is executed.
+20:04:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0' command is executed.
+20:04:59 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+20:04:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:04:59 INFO  : Context for processor 'microblaze_0' is selected.
+20:04:59 INFO  : System reset is completed.
+20:05:02 INFO  : 'after 3000' command is executed.
+20:05:02 INFO  : Context for processor 'microblaze_0' is selected.
+20:05:02 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+20:05:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+20:05:02 INFO  : Memory regions updated for context MicroBlaze #0
+20:05:02 INFO  : Memory regions updated for context MicroBlaze #0
+20:05:02 INFO  : Context for processor 'microblaze_0' is selected.
+20:05:02 INFO  : 'con' command is executed.
+20:05:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:05:02 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+20:05:44 INFO  : Disconnected from the channel tcfchan#4.
+20:07:32 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+20:07:39 INFO  : XSCT server has started successfully.
+20:07:39 INFO  : plnx-install-location is set to ''
+20:07:39 INFO  : Successfully done setting XSCT server connection channel  
+20:07:39 INFO  : Successfully done setting workspace for the tool. 
+20:07:44 INFO  : Registering command handlers for Vitis TCF services
+20:07:45 INFO  : Successfully done query RDI_DATADIR 
+20:21:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:22:04 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B4A283A' is selected.
+20:22:04 INFO  : 'jtag frequency' command is executed.
+20:22:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0' command is executed.
+20:22:06 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+20:22:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:22:07 INFO  : Context for processor 'microblaze_0' is selected.
+20:22:07 INFO  : System reset is completed.
+20:22:10 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+20:22:10 INFO  : 'after 3000' command is executed.
+20:22:11 INFO  : Context for processor 'microblaze_0' is selected.
+20:22:11 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+20:22:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+20:22:11 INFO  : Memory regions updated for context MicroBlaze #0
+20:22:11 INFO  : Memory regions updated for context MicroBlaze #0
+20:22:12 INFO  : Context for processor 'microblaze_0' is selected.
+20:22:12 INFO  : 'con' command is executed.
+20:22:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:22:12 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+20:22:12 INFO  : Checking for BSP changes to sync application flags for project 'Testgame'...
+20:22:28 INFO  : Disconnected from the channel tcfchan#1.
+20:22:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:22:28 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B4A283A' is selected.
+20:22:28 INFO  : 'jtag frequency' command is executed.
+20:22:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0' command is executed.
+20:22:30 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+20:22:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:22:30 INFO  : Context for processor 'microblaze_0' is selected.
+20:22:30 INFO  : System reset is completed.
+20:22:33 INFO  : 'after 3000' command is executed.
+20:22:33 INFO  : Context for processor 'microblaze_0' is selected.
+20:22:33 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+20:22:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+20:22:33 INFO  : Memory regions updated for context MicroBlaze #0
+20:22:33 INFO  : Memory regions updated for context MicroBlaze #0
+20:22:33 INFO  : Context for processor 'microblaze_0' is selected.
+20:22:33 INFO  : 'con' command is executed.
+20:22:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:22:33 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+20:23:58 INFO  : Checking for BSP changes to sync application flags for project 'Testgame'...
+20:24:11 INFO  : Disconnected from the channel tcfchan#2.
+20:24:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:24:12 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B4A283A' is selected.
+20:24:12 INFO  : 'jtag frequency' command is executed.
+20:24:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0' command is executed.
+20:24:13 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+20:24:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:24:13 INFO  : Context for processor 'microblaze_0' is selected.
+20:24:13 INFO  : System reset is completed.
+20:24:16 INFO  : 'after 3000' command is executed.
+20:24:17 INFO  : Context for processor 'microblaze_0' is selected.
+20:24:17 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+20:24:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+20:24:17 INFO  : Memory regions updated for context MicroBlaze #0
+20:24:17 INFO  : Memory regions updated for context MicroBlaze #0
+20:24:17 INFO  : Context for processor 'microblaze_0' is selected.
+20:24:17 INFO  : 'con' command is executed.
+20:24:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:24:17 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+21:23:30 INFO  : Disconnected from the channel tcfchan#3.
+22:00:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+22:00:45 INFO  : XSCT server has started successfully.
+22:00:45 INFO  : Successfully done setting XSCT server connection channel  
+22:00:45 INFO  : plnx-install-location is set to ''
+22:00:45 INFO  : Successfully done setting workspace for the tool. 
+22:00:46 INFO  : Registering command handlers for Vitis TCF services
+22:00:55 INFO  : Successfully done query RDI_DATADIR 
+20:49:50 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+20:49:55 INFO  : XSCT server has started successfully.
+20:49:55 INFO  : plnx-install-location is set to ''
+20:49:55 INFO  : Successfully done setting XSCT server connection channel  
+20:49:55 INFO  : Successfully done setting workspace for the tool. 
+20:49:57 INFO  : Registering command handlers for Vitis TCF services
+20:50:08 INFO  : Successfully done query RDI_DATADIR 
+21:53:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:53:47 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B4A283A' is selected.
+21:53:47 INFO  : 'jtag frequency' command is executed.
+21:53:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0' command is executed.
+21:53:48 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+21:53:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:53:49 INFO  : Context for processor 'microblaze_0' is selected.
+21:53:49 INFO  : System reset is completed.
+21:53:52 INFO  : 'after 3000' command is executed.
+21:53:52 INFO  : Context for processor 'microblaze_0' is selected.
+21:53:52 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+21:53:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+21:53:52 INFO  : Memory regions updated for context MicroBlaze #0
+21:53:52 INFO  : Memory regions updated for context MicroBlaze #0
+21:53:52 INFO  : Context for processor 'microblaze_0' is selected.
+21:53:52 INFO  : 'con' command is executed.
+21:53:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:53:52 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+22:49:28 INFO  : Disconnected from the channel tcfchan#1.
+16:40:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+16:40:14 INFO  : Registering command handlers for Vitis TCF services
+16:40:14 INFO  : XSCT server has started successfully.
+16:40:14 INFO  : plnx-install-location is set to ''
+16:40:14 INFO  : Successfully done setting XSCT server connection channel  
+16:40:24 INFO  : Successfully done setting workspace for the tool. 
+16:40:24 INFO  : Successfully done query RDI_DATADIR 
+19:58:21 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+19:58:24 INFO  : XSCT server has started successfully.
+19:58:24 INFO  : plnx-install-location is set to ''
+19:58:24 INFO  : Successfully done setting XSCT server connection channel  
+19:58:24 INFO  : Successfully done setting workspace for the tool. 
+19:58:27 INFO  : Registering command handlers for Vitis TCF services
+19:58:29 INFO  : Successfully done query RDI_DATADIR 
+15:08:07 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+15:08:11 INFO  : XSCT server has started successfully.
+15:08:11 INFO  : plnx-install-location is set to ''
+15:08:11 INFO  : Successfully done setting XSCT server connection channel  
+15:08:11 INFO  : Successfully done setting workspace for the tool. 
+15:08:11 INFO  : Registering command handlers for Vitis TCF services
+15:08:18 INFO  : Successfully done query RDI_DATADIR 
+15:09:42 INFO  : Checking for BSP changes to sync application flags for project 'RGBLED'...
+15:10:02 INFO  : Checking for BSP changes to sync application flags for project 'Testgame'...
+15:10:05 INFO  : Checking for BSP changes to sync application flags for project 'testIPpwm'...
+15:13:56 INFO  : Checking for BSP changes to sync application flags for project 'testIPpwm'...
+15:14:40 INFO  : Checking for BSP changes to sync application flags for project 'testIPpwm'...
+15:15:13 INFO  : Checking for BSP changes to sync application flags for project 'testIPpwm'...
+15:15:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:24 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B4A283A' is selected.
+15:15:24 INFO  : 'jtag frequency' command is executed.
+15:15:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0' command is executed.
+15:15:25 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/testIPpwm/_ide/bitstream/TestIPpwm_wrapper.bit"
+15:15:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:15:26 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:26 INFO  : System reset is completed.
+15:15:29 INFO  : 'after 3000' command is executed.
+15:15:29 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:29 INFO  : The application 'E:/Vivado/Test/testIPpwm/Debug/testIPpwm.elf' is downloaded to processor 'microblaze_0'.
+15:15:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0
+fpga -file E:/Vivado/Test/testIPpwm/_ide/bitstream/TestIPpwm_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/testIPpwm/Debug/testIPpwm.elf
+----------------End of Script----------------
+
+15:15:29 INFO  : Memory regions updated for context MicroBlaze #0
+15:15:29 INFO  : Memory regions updated for context MicroBlaze #0
+15:15:29 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:29 INFO  : 'con' command is executed.
+15:15:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:15:29 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testippwm_system_standalone.tcl'
+15:15:53 INFO  : Checking for BSP changes to sync application flags for project 'testIPpwm'...
+15:16:00 INFO  : Disconnected from the channel tcfchan#4.
+15:16:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:16:00 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B4A283A' is selected.
+15:16:00 INFO  : 'jtag frequency' command is executed.
+15:16:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0' command is executed.
+15:16:01 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/testIPpwm/_ide/bitstream/TestIPpwm_wrapper.bit"
+15:16:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:16:01 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:01 INFO  : System reset is completed.
+15:16:04 INFO  : 'after 3000' command is executed.
+15:16:04 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:05 INFO  : The application 'E:/Vivado/Test/testIPpwm/Debug/testIPpwm.elf' is downloaded to processor 'microblaze_0'.
+15:16:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0
+fpga -file E:/Vivado/Test/testIPpwm/_ide/bitstream/TestIPpwm_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/testIPpwm/Debug/testIPpwm.elf
+----------------End of Script----------------
+
+15:16:05 INFO  : Memory regions updated for context MicroBlaze #0
+15:16:05 INFO  : Memory regions updated for context MicroBlaze #0
+15:16:05 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:05 INFO  : 'con' command is executed.
+15:16:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:16:05 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testippwm_system_standalone.tcl'
+15:16:40 INFO  : Checking for BSP changes to sync application flags for project 'testIPpwm'...
+15:16:48 INFO  : Disconnected from the channel tcfchan#5.
+15:16:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:16:48 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B4A283A' is selected.
+15:16:48 INFO  : 'jtag frequency' command is executed.
+15:16:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0' command is executed.
+15:16:50 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/testIPpwm/_ide/bitstream/TestIPpwm_wrapper.bit"
+15:16:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:16:50 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:50 INFO  : System reset is completed.
+15:16:53 INFO  : 'after 3000' command is executed.
+15:16:53 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:53 INFO  : The application 'E:/Vivado/Test/testIPpwm/Debug/testIPpwm.elf' is downloaded to processor 'microblaze_0'.
+15:16:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0
+fpga -file E:/Vivado/Test/testIPpwm/_ide/bitstream/TestIPpwm_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/testIPpwm/Debug/testIPpwm.elf
+----------------End of Script----------------
+
+15:16:53 INFO  : Memory regions updated for context MicroBlaze #0
+15:16:53 INFO  : Memory regions updated for context MicroBlaze #0
+15:16:53 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:53 INFO  : 'con' command is executed.
+15:16:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:16:53 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testippwm_system_standalone.tcl'
+15:17:07 INFO  : Checking for BSP changes to sync application flags for project 'testIPpwm'...
+15:17:14 INFO  : Disconnected from the channel tcfchan#6.
+15:17:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:17:14 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B4A283A' is selected.
+15:17:14 INFO  : 'jtag frequency' command is executed.
+15:17:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0' command is executed.
+15:17:16 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/testIPpwm/_ide/bitstream/TestIPpwm_wrapper.bit"
+15:17:16 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:17:16 INFO  : Context for processor 'microblaze_0' is selected.
+15:17:16 INFO  : System reset is completed.
+15:17:19 INFO  : 'after 3000' command is executed.
+15:17:19 INFO  : Context for processor 'microblaze_0' is selected.
+15:17:19 INFO  : The application 'E:/Vivado/Test/testIPpwm/Debug/testIPpwm.elf' is downloaded to processor 'microblaze_0'.
+15:17:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B4A283A" && level==0} -index 0
+fpga -file E:/Vivado/Test/testIPpwm/_ide/bitstream/TestIPpwm_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/testIPpwm/Debug/testIPpwm.elf
+----------------End of Script----------------
+
+15:17:19 INFO  : Memory regions updated for context MicroBlaze #0
+15:17:19 INFO  : Memory regions updated for context MicroBlaze #0
+15:17:19 INFO  : Context for processor 'microblaze_0' is selected.
+15:17:19 INFO  : 'con' command is executed.
+15:17:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:17:19 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testippwm_system_standalone.tcl'
+15:36:01 INFO  : Removed 'E:/Vivado/Test/TestIPpwm_wrapper/export/TestIPpwm_wrapper' from custom platform repositories.
+15:46:26 INFO  : Checking for BSP changes to sync application flags for project 'testpwmip'...
+15:46:59 INFO  : Checking for BSP changes to sync application flags for project 'testpwmip'...
+15:47:24 INFO  : Removed 'E:/Vivado/Test/TestIPpwm_wrapper/export/TestIPpwm_wrapper' from custom platform repositories.
+15:47:44 INFO  : Disconnected from the channel tcfchan#7.
+19:11:37 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+19:11:39 INFO  : XSCT server has started successfully.
+19:11:39 INFO  : plnx-install-location is set to ''
+19:11:39 INFO  : Successfully done setting XSCT server connection channel  
+19:11:39 INFO  : Successfully done setting workspace for the tool. 
+19:11:43 INFO  : Registering command handlers for Vitis TCF services
+19:11:44 INFO  : Successfully done query RDI_DATADIR 
+17:15:42 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+17:15:48 INFO  : Registering command handlers for Vitis TCF services
+17:15:49 INFO  : XSCT server has started successfully.
+17:15:49 INFO  : Successfully done setting XSCT server connection channel  
+17:15:59 INFO  : plnx-install-location is set to ''
+17:15:59 INFO  : Successfully done setting workspace for the tool. 
+17:15:59 INFO  : Successfully done query RDI_DATADIR 
+11:34:40 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+11:34:45 INFO  : Registering command handlers for Vitis TCF services
+11:34:46 INFO  : XSCT server has started successfully.
+11:34:46 INFO  : plnx-install-location is set to ''
+11:34:46 INFO  : Successfully done setting XSCT server connection channel  
+11:34:55 INFO  : Successfully done setting workspace for the tool. 
+11:34:55 INFO  : Successfully done query RDI_DATADIR 
+17:10:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+17:10:47 INFO  : XSCT server has started successfully.
+17:10:47 INFO  : Registering command handlers for Vitis TCF services
+17:10:53 INFO  : plnx-install-location is set to ''
+17:10:53 INFO  : Successfully done setting XSCT server connection channel  
+17:10:53 INFO  : Successfully done query RDI_DATADIR 
+17:10:53 INFO  : Successfully done setting workspace for the tool. 
+17:12:42 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+17:12:45 INFO  : XSCT server has started successfully.
+17:12:45 INFO  : Successfully done setting XSCT server connection channel  
+17:12:45 INFO  : plnx-install-location is set to ''
+17:12:45 INFO  : Successfully done setting workspace for the tool. 
+17:12:47 INFO  : Registering command handlers for Vitis TCF services
+17:12:48 INFO  : Successfully done query RDI_DATADIR 
+17:17:09 INFO  : Checking for BSP changes to sync application flags for project 'Testgame'...
+17:18:02 INFO  : Checking for BSP changes to sync application flags for project 'Testgame'...
+17:18:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:18:24 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:18:24 INFO  : 'jtag frequency' command is executed.
+17:18:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:18:25 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:18:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:18:25 INFO  : Context for processor 'microblaze_0' is selected.
+17:18:25 INFO  : System reset is completed.
+17:18:28 INFO  : 'after 3000' command is executed.
+17:18:28 INFO  : Context for processor 'microblaze_0' is selected.
+17:18:29 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:18:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:18:29 INFO  : Memory regions updated for context MicroBlaze #0
+17:18:29 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:18:29 INFO  : Context for processor 'microblaze_0' is selected.
+17:18:29 INFO  : 'con' command is executed.
+17:18:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:18:29 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:18:46 INFO  : Disconnected from the channel tcfchan#2.
+17:18:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:18:46 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:18:46 INFO  : 'jtag frequency' command is executed.
+17:18:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:18:47 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:18:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:18:47 INFO  : Context for processor 'microblaze_0' is selected.
+17:18:47 INFO  : System reset is completed.
+17:18:50 INFO  : 'after 3000' command is executed.
+17:18:50 INFO  : Context for processor 'microblaze_0' is selected.
+17:18:51 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:18:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:18:51 INFO  : Memory regions updated for context MicroBlaze #0
+17:18:51 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:18:51 INFO  : Context for processor 'microblaze_0' is selected.
+17:18:51 INFO  : 'con' command is executed.
+17:18:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:18:51 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:20:58 INFO  : Disconnected from the channel tcfchan#3.
+17:20:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:20:58 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:20:58 INFO  : 'jtag frequency' command is executed.
+17:20:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:20:59 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:20:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:20:59 INFO  : Context for processor 'microblaze_0' is selected.
+17:20:59 INFO  : System reset is completed.
+17:21:02 INFO  : 'after 3000' command is executed.
+17:21:02 INFO  : Context for processor 'microblaze_0' is selected.
+17:21:02 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:21:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:21:03 INFO  : Memory regions updated for context MicroBlaze #0
+17:21:03 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:21:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:21:03 INFO  : 'con' command is executed.
+17:21:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:21:03 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:23:44 INFO  : Disconnected from the channel tcfchan#4.
+17:23:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:23:45 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:23:45 INFO  : 'jtag frequency' command is executed.
+17:23:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:23:47 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:23:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:23:47 INFO  : Context for processor 'microblaze_0' is selected.
+17:23:47 INFO  : System reset is completed.
+17:23:50 INFO  : 'after 3000' command is executed.
+17:23:50 INFO  : Context for processor 'microblaze_0' is selected.
+17:23:50 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:23:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:23:50 INFO  : Memory regions updated for context MicroBlaze #0
+17:23:50 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:23:50 INFO  : Context for processor 'microblaze_0' is selected.
+17:23:50 INFO  : 'con' command is executed.
+17:23:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:23:50 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:24:09 INFO  : Disconnected from the channel tcfchan#5.
+17:24:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:24:09 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:24:09 INFO  : 'jtag frequency' command is executed.
+17:24:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:24:11 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:24:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:24:11 INFO  : Context for processor 'microblaze_0' is selected.
+17:24:11 INFO  : System reset is completed.
+17:24:14 INFO  : 'after 3000' command is executed.
+17:24:14 INFO  : Context for processor 'microblaze_0' is selected.
+17:24:14 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:24:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:24:14 INFO  : Memory regions updated for context MicroBlaze #0
+17:24:14 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:24:14 INFO  : Context for processor 'microblaze_0' is selected.
+17:24:14 INFO  : 'con' command is executed.
+17:24:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:24:14 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:25:08 INFO  : Disconnected from the channel tcfchan#6.
+17:25:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:25:08 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:25:08 INFO  : 'jtag frequency' command is executed.
+17:25:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:25:10 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:25:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:25:10 INFO  : Context for processor 'microblaze_0' is selected.
+17:25:10 INFO  : System reset is completed.
+17:25:13 INFO  : 'after 3000' command is executed.
+17:25:13 INFO  : Context for processor 'microblaze_0' is selected.
+17:25:13 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:25:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:25:13 INFO  : Memory regions updated for context MicroBlaze #0
+17:25:13 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:25:13 INFO  : Context for processor 'microblaze_0' is selected.
+17:25:13 INFO  : 'con' command is executed.
+17:25:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:25:13 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:26:26 INFO  : Disconnected from the channel tcfchan#7.
+17:26:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:26:26 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:26:26 INFO  : 'jtag frequency' command is executed.
+17:26:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:26:27 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:26:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:26:27 INFO  : Context for processor 'microblaze_0' is selected.
+17:26:27 INFO  : System reset is completed.
+17:26:30 INFO  : 'after 3000' command is executed.
+17:26:30 INFO  : Context for processor 'microblaze_0' is selected.
+17:26:30 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:26:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:26:31 INFO  : Memory regions updated for context MicroBlaze #0
+17:26:31 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:26:31 INFO  : Context for processor 'microblaze_0' is selected.
+17:26:31 INFO  : 'con' command is executed.
+17:26:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:26:31 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:27:47 INFO  : Disconnected from the channel tcfchan#8.
+17:27:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:27:47 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:27:47 INFO  : 'jtag frequency' command is executed.
+17:27:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:27:49 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:27:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:27:49 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:49 INFO  : System reset is completed.
+17:27:52 INFO  : 'after 3000' command is executed.
+17:27:52 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:52 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:27:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:27:52 INFO  : Memory regions updated for context MicroBlaze #0
+17:27:52 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:27:52 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:52 INFO  : 'con' command is executed.
+17:27:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:27:52 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:28:30 INFO  : Disconnected from the channel tcfchan#9.
+17:28:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:28:31 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:28:31 INFO  : 'jtag frequency' command is executed.
+17:28:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:28:32 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:28:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:28:32 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:32 INFO  : System reset is completed.
+17:28:35 INFO  : 'after 3000' command is executed.
+17:28:35 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:35 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:28:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:28:35 INFO  : Memory regions updated for context MicroBlaze #0
+17:28:35 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:28:36 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:36 INFO  : 'con' command is executed.
+17:28:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:28:36 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:28:49 INFO  : Checking for BSP changes to sync application flags for project 'Testgame'...
+17:28:58 INFO  : Disconnected from the channel tcfchan#10.
+17:28:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:28:59 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:28:59 INFO  : 'jtag frequency' command is executed.
+17:28:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:29:00 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:29:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:29:00 INFO  : Context for processor 'microblaze_0' is selected.
+17:29:00 INFO  : System reset is completed.
+17:29:03 INFO  : 'after 3000' command is executed.
+17:29:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:29:03 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:29:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:29:03 INFO  : Memory regions updated for context MicroBlaze #0
+17:29:03 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:29:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:29:03 INFO  : 'con' command is executed.
+17:29:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:29:03 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:31:06 INFO  : Disconnected from the channel tcfchan#11.
+17:31:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:31:06 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:31:06 INFO  : 'jtag frequency' command is executed.
+17:31:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:31:07 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:31:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:31:07 INFO  : Context for processor 'microblaze_0' is selected.
+17:31:07 INFO  : System reset is completed.
+17:31:10 INFO  : 'after 3000' command is executed.
+17:31:11 INFO  : Context for processor 'microblaze_0' is selected.
+17:31:11 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:31:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:31:11 INFO  : Memory regions updated for context MicroBlaze #0
+17:31:11 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:31:11 INFO  : Context for processor 'microblaze_0' is selected.
+17:31:11 INFO  : 'con' command is executed.
+17:31:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:31:11 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:37:16 INFO  : Disconnected from the channel tcfchan#12.
+17:38:21 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+17:38:23 INFO  : XSCT server has started successfully.
+17:38:23 INFO  : plnx-install-location is set to ''
+17:38:23 INFO  : Successfully done setting XSCT server connection channel  
+17:38:23 INFO  : Successfully done setting workspace for the tool. 
+17:38:26 INFO  : Registering command handlers for Vitis TCF services
+17:38:26 INFO  : Successfully done query RDI_DATADIR 
+17:39:45 INFO  : Checking for BSP changes to sync application flags for project 'Testgame'...
+17:39:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:39:55 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:39:55 INFO  : 'jtag frequency' command is executed.
+17:39:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:39:56 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:39:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:39:56 INFO  : Context for processor 'microblaze_0' is selected.
+17:39:56 INFO  : System reset is completed.
+17:39:59 INFO  : 'after 3000' command is executed.
+17:39:59 INFO  : Context for processor 'microblaze_0' is selected.
+17:40:00 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:40:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:40:00 INFO  : Memory regions updated for context MicroBlaze #0
+17:40:00 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:40:00 INFO  : Context for processor 'microblaze_0' is selected.
+17:40:00 INFO  : 'con' command is executed.
+17:40:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:40:00 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:40:44 INFO  : Disconnected from the channel tcfchan#1.
+17:40:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:40:44 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:40:44 INFO  : 'jtag frequency' command is executed.
+17:40:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:40:46 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:40:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:40:46 INFO  : Context for processor 'microblaze_0' is selected.
+17:40:46 INFO  : System reset is completed.
+17:40:49 INFO  : 'after 3000' command is executed.
+17:40:49 INFO  : Context for processor 'microblaze_0' is selected.
+17:40:49 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:40:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:40:49 INFO  : Memory regions updated for context MicroBlaze #0
+17:40:49 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:40:49 INFO  : Context for processor 'microblaze_0' is selected.
+17:40:49 INFO  : 'con' command is executed.
+17:40:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:40:49 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:41:05 INFO  : Disconnected from the channel tcfchan#2.
+17:41:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:41:05 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:41:05 INFO  : 'jtag frequency' command is executed.
+17:41:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:41:06 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:41:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:41:06 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:06 INFO  : System reset is completed.
+17:41:09 INFO  : 'after 3000' command is executed.
+17:41:09 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:09 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:41:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:41:09 INFO  : Memory regions updated for context MicroBlaze #0
+17:41:09 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:41:09 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:09 INFO  : 'con' command is executed.
+17:41:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:41:09 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:41:28 INFO  : Disconnected from the channel tcfchan#3.
+17:41:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:41:28 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:41:28 INFO  : 'jtag frequency' command is executed.
+17:41:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:41:29 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:41:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:41:30 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:30 INFO  : System reset is completed.
+17:41:33 INFO  : 'after 3000' command is executed.
+17:41:33 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:33 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:41:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:41:33 INFO  : Memory regions updated for context MicroBlaze #0
+17:41:33 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:41:33 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:33 INFO  : 'con' command is executed.
+17:41:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:41:33 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:41:41 INFO  : Checking for BSP changes to sync application flags for project 'Testgame'...
+17:41:51 INFO  : Checking for BSP changes to sync application flags for project 'Testgame'...
+17:42:18 INFO  : Disconnected from the channel tcfchan#4.
+17:42:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:42:19 INFO  : Jtag cable 'Digilent Arty 210319788822A' is selected.
+17:42:19 INFO  : 'jtag frequency' command is executed.
+17:42:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0' command is executed.
+17:42:21 INFO  : FPGA configured successfully with bitstream "E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit"
+17:42:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:42:21 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:21 INFO  : System reset is completed.
+17:42:24 INFO  : 'after 3000' command is executed.
+17:42:24 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:24 INFO  : The application 'E:/Vivado/Test/Testgame/Debug/Testgame.elf' is downloaded to processor 'microblaze_0'.
+17:42:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319788822A" && level==0} -index 0
+fpga -file E:/Vivado/Test/Testgame/_ide/bitstream/Testgame_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Vivado/Test/Testgame/Debug/Testgame.elf
+----------------End of Script----------------
+
+17:42:24 INFO  : Memory regions updated for context MicroBlaze #0
+17:42:24 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+17:42:24 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:24 INFO  : 'con' command is executed.
+17:42:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:42:24 INFO  : Launch script is exported to file 'E:\Vivado\Test\.sdk\launch_scripts\single_application_debug\systemdebugger_testgame_system_standalone.tcl'
+17:44:39 INFO  : Disconnected from the channel tcfchan#5.
+19:40:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+19:41:03 INFO  : Registering command handlers for Vitis TCF services
+19:41:04 INFO  : XSCT server has started successfully.
+19:41:13 INFO  : plnx-install-location is set to ''
+19:41:13 INFO  : Successfully done setting XSCT server connection channel  
+19:41:13 INFO  : Successfully done query RDI_DATADIR 
+19:41:13 INFO  : Successfully done setting workspace for the tool. 
+08:57:45 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+08:57:49 INFO  : XSCT server has started successfully.
+08:57:49 INFO  : plnx-install-location is set to ''
+08:57:49 INFO  : Successfully done setting XSCT server connection channel  
+08:57:49 INFO  : Successfully done setting workspace for the tool. 
+08:57:51 INFO  : Registering command handlers for Vitis TCF services
+08:57:57 INFO  : Successfully done query RDI_DATADIR 
+12:11:23 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Vivado\Test\temp_xsdb_launch_script.tcl
+12:11:27 INFO  : XSCT server has started successfully.
+12:11:28 INFO  : plnx-install-location is set to ''
+12:11:28 INFO  : Successfully done setting XSCT server connection channel  
+12:11:28 INFO  : Successfully done setting workspace for the tool. 
+12:11:30 INFO  : Registering command handlers for Vitis TCF services
+12:11:40 INFO  : Successfully done query RDI_DATADIR 
+12:12:24 INFO  : Removed 'E:/Vivado/Test/LEDRGB_wrapper/export/LEDRGB_wrapper' from custom platform repositories.

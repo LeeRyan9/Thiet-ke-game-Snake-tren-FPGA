@@ -1,0 +1,6 @@
+15:09:45 **** Build of configuration Debug for project RGBLED_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+15:09:45 Build Finished (took 199ms)
+

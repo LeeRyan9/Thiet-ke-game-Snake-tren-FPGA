@@ -1,0 +1,447 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Jan  4 10:47:01 2025
+# Process ID: 15020
+# Current directory: E:/Vivado/TTCS/TTCS.runs/synth_1
+# Command line: vivado.exe -log Testgame_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Testgame_wrapper.tcl
+# Log file: E:/Vivado/TTCS/TTCS.runs/synth_1/Testgame_wrapper.vds
+# Journal file: E:/Vivado/TTCS/TTCS.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Testgame_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Vivado/ip_repo/pmosip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/Vivado/2019.2/data/ip'.
+Command: synth_design -top Testgame_wrapper -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6488 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1241.488 ; gain = 227.645
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Testgame_wrapper' [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/hdl/Testgame_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'Testgame' [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_axi_gpio_0_1' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_axi_gpio_0_1' (1#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_axi_quad_spi_0_0' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_axi_quad_spi_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_axi_quad_spi_0_0' (2#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_axi_quad_spi_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'axi_quad_spi_0' of module 'Testgame_axi_quad_spi_0_0' has 33 connections declared, but only 32 given [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:236]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_axi_uartlite_0_0' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_axi_uartlite_0_0' (3#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_axi_uartlite_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'axi_uartlite_0' of module 'Testgame_axi_uartlite_0_0' has 22 connections declared, but only 21 given [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:269]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_clk_wiz_1_0' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_clk_wiz_1_0' (4#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_mdm_1_0' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_mdm_1_0' (5#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_microblaze_0_0' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_microblaze_0_0' (6#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_microblaze_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'Testgame_microblaze_0_0' has 52 connections declared, but only 51 given [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:309]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_microblaze_0_axi_periph_0' [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:520]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_11QSJ3N' [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:1244]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_11QSJ3N' (7#1) [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:1244]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_SODW0I' [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:1376]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_SODW0I' (8#1) [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:1376]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_13D02LS' [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:1508]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_13D02LS' (9#1) [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:1508]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_RCGDLD' [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:1640]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_RCGDLD' (10#1) [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:1640]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_VEV0FL' [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:2020]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_VEV0FL' (11#1) [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:2020]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_xbar_0' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_xbar_0' (12#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_microblaze_0_axi_periph_0' (13#1) [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:520]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_Q7USXJ' [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:1786]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_dlmb_bram_if_cntlr_0' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_dlmb_bram_if_cntlr_0' (14#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_dlmb_v10_0' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_dlmb_v10_0' (15#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_dlmb_v10_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'Testgame_dlmb_v10_0' has 25 connections declared, but only 24 given [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:1932]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_ilmb_bram_if_cntlr_0' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_ilmb_bram_if_cntlr_0' (16#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_ilmb_v10_0' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_ilmb_v10_0' (17#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_ilmb_v10_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'Testgame_ilmb_v10_0' has 25 connections declared, but only 24 given [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:1978]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_lmb_bram_0' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_lmb_bram_0' (18#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_lmb_bram_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'Testgame_lmb_bram_0' has 16 connections declared, but only 14 given [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:2003]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_Q7USXJ' (19#1) [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:1786]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_pmosip_0_1' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_pmosip_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_pmosip_0_1' (20#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_pmosip_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Testgame_rst_clk_wiz_1_100M_0' [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_rst_clk_wiz_1_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_rst_clk_wiz_1_100M_0' (21#1) [E:/Vivado/TTCS/TTCS.runs/synth_1/.Xil/Vivado-15020-DESKTOP-HKA89RR/realtime/Testgame_rst_clk_wiz_1_100M_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'Testgame_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:509]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame' (22#1) [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/synth/Testgame.v:13]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Vivado/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (23#1) [C:/Vivado/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
+INFO: [Synth 8-6155] done synthesizing module 'Testgame_wrapper' (24#1) [E:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/hdl/Testgame_wrapper.v:12]
+WARNING: [Synth 8-3331] design s00_couplers_imp_VEV0FL has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_VEV0FL has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s00_couplers_imp_VEV0FL has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_VEV0FL has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m03_couplers_imp_RCGDLD has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m03_couplers_imp_RCGDLD has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m03_couplers_imp_RCGDLD has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m03_couplers_imp_RCGDLD has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_13D02LS has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m02_couplers_imp_13D02LS has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_13D02LS has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m02_couplers_imp_13D02LS has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_SODW0I has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_SODW0I has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_SODW0I has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_SODW0I has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_11QSJ3N has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_11QSJ3N has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_11QSJ3N has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_11QSJ3N has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M02_ACLK
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M02_ARESETN
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M03_ACLK
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M03_ARESETN
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1320.172 ; gain = 306.328
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1320.172 ; gain = 306.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1320.172 ; gain = 306.328
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1320.172 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_microblaze_0_0/Testgame_microblaze_0_0/Test_microblaze_0_0_in_context.xdc] for cell 'Testgame_i/microblaze_0'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_microblaze_0_0/Testgame_microblaze_0_0/Test_microblaze_0_0_in_context.xdc] for cell 'Testgame_i/microblaze_0'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_dlmb_v10_0/Testgame_dlmb_v10_0/Test_ilmb_v10_0_in_context.xdc] for cell 'Testgame_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_dlmb_v10_0/Testgame_dlmb_v10_0/Test_ilmb_v10_0_in_context.xdc] for cell 'Testgame_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_ilmb_v10_0/Testgame_ilmb_v10_0/Test_ilmb_v10_0_in_context.xdc] for cell 'Testgame_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_ilmb_v10_0/Testgame_ilmb_v10_0/Test_ilmb_v10_0_in_context.xdc] for cell 'Testgame_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_dlmb_bram_if_cntlr_0/Testgame_dlmb_bram_if_cntlr_0/TestSPI_dlmb_bram_if_cntlr_1_in_context.xdc] for cell 'Testgame_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_dlmb_bram_if_cntlr_0/Testgame_dlmb_bram_if_cntlr_0/TestSPI_dlmb_bram_if_cntlr_1_in_context.xdc] for cell 'Testgame_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_ilmb_bram_if_cntlr_0/Testgame_ilmb_bram_if_cntlr_0/Test_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'Testgame_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_ilmb_bram_if_cntlr_0/Testgame_ilmb_bram_if_cntlr_0/Test_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'Testgame_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_lmb_bram_0/Testgame_lmb_bram_0/Testgame_lmb_bram_0_in_context.xdc] for cell 'Testgame_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_lmb_bram_0/Testgame_lmb_bram_0/Testgame_lmb_bram_0_in_context.xdc] for cell 'Testgame_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_mdm_1_0/Testgame_mdm_1_0/Test_mdm_1_0_in_context.xdc] for cell 'Testgame_i/mdm_1'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_mdm_1_0/Testgame_mdm_1_0/Test_mdm_1_0_in_context.xdc] for cell 'Testgame_i/mdm_1'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_clk_wiz_1_0/Testgame_clk_wiz_1_0/Testgame_clk_wiz_1_0_in_context.xdc] for cell 'Testgame_i/clk_wiz_1'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_clk_wiz_1_0/Testgame_clk_wiz_1_0/Testgame_clk_wiz_1_0_in_context.xdc] for cell 'Testgame_i/clk_wiz_1'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_rst_clk_wiz_1_100M_0/Testgame_rst_clk_wiz_1_100M_0/Test_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'Testgame_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_rst_clk_wiz_1_100M_0/Testgame_rst_clk_wiz_1_100M_0/Test_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'Testgame_i/rst_clk_wiz_1_100M'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_axi_uartlite_0_0/Testgame_axi_uartlite_0_0/Test_axi_uartlite_0_0_in_context.xdc] for cell 'Testgame_i/axi_uartlite_0'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_axi_uartlite_0_0/Testgame_axi_uartlite_0_0/Test_axi_uartlite_0_0_in_context.xdc] for cell 'Testgame_i/axi_uartlite_0'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_axi_quad_spi_0_0/Testgame_axi_quad_spi_0_0/Testgame_axi_quad_spi_0_0_in_context.xdc] for cell 'Testgame_i/axi_quad_spi_0'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_axi_quad_spi_0_0/Testgame_axi_quad_spi_0_0/Testgame_axi_quad_spi_0_0_in_context.xdc] for cell 'Testgame_i/axi_quad_spi_0'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_xbar_0/Testgame_xbar_0/Testgame_xbar_0_in_context.xdc] for cell 'Testgame_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_xbar_0/Testgame_xbar_0/Testgame_xbar_0_in_context.xdc] for cell 'Testgame_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_pmosip_0_1/Testgame_pmosip_0_1/Testgame_pmosip_0_1_in_context.xdc] for cell 'Testgame_i/pmosip_0'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_pmosip_0_1/Testgame_pmosip_0_1/Testgame_pmosip_0_1_in_context.xdc] for cell 'Testgame_i/pmosip_0'
+Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_axi_gpio_0_1/Testgame_axi_gpio_0_1/Testgame_axi_gpio_0_1_in_context.xdc] for cell 'Testgame_i/axi_gpio_0'
+Finished Parsing XDC File [e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_axi_gpio_0_1/Testgame_axi_gpio_0_1/Testgame_axi_gpio_0_1_in_context.xdc] for cell 'Testgame_i/axi_gpio_0'
+Parsing XDC File [E:/Vivado/TTCS/TTCS.srcs/constrs_3/new/testgame.xdc]
+Finished Parsing XDC File [E:/Vivado/TTCS/TTCS.srcs/constrs_3/new/testgame.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Vivado/TTCS/TTCS.srcs/constrs_3/new/testgame.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Testgame_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Testgame_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [E:/Vivado/TTCS/TTCS.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/Vivado/TTCS/TTCS.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1380.246 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 4 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1380.246 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'Testgame_i/axi_quad_spi_0' at clock pin 'ext_spi_clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'Testgame_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1384.242 ; gain = 370.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1384.242 ; gain = 370.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clock. (constraint file  e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_clk_wiz_1_0/Testgame_clk_wiz_1_0/Testgame_clk_wiz_1_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clock. (constraint file  e:/Vivado/TTCS/TTCS.srcs/sources_1/bd/Testgame/ip/Testgame_clk_wiz_1_0/Testgame_clk_wiz_1_0/Testgame_clk_wiz_1_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for Testgame_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/microblaze_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/mdm_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/clk_wiz_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/axi_uartlite_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/axi_quad_spi_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/microblaze_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/pmosip_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Testgame_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1384.242 ; gain = 370.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1384.242 ; gain = 370.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M02_ACLK
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M02_ARESETN
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M03_ACLK
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port M03_ARESETN
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design Testgame_microblaze_0_axi_periph_0 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 1384.242 ; gain = 370.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 1384.242 ; gain = 370.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 1384.242 ; gain = 370.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 1389.684 ; gain = 375.840
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1405.469 ; gain = 391.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1405.469 ; gain = 391.625
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1405.469 ; gain = 391.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1405.469 ; gain = 391.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1405.469 ; gain = 391.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1405.469 ; gain = 391.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------+----------+
+|      |BlackBox name                 |Instances |
++------+------------------------------+----------+
+|1     |Testgame_xbar_0               |         1|
+|2     |Testgame_axi_gpio_0_1         |         1|
+|3     |Testgame_axi_quad_spi_0_0     |         1|
+|4     |Testgame_axi_uartlite_0_0     |         1|
+|5     |Testgame_clk_wiz_1_0          |         1|
+|6     |Testgame_mdm_1_0              |         1|
+|7     |Testgame_microblaze_0_0       |         1|
+|8     |Testgame_pmosip_0_1           |         1|
+|9     |Testgame_rst_clk_wiz_1_100M_0 |         1|
+|10    |Testgame_dlmb_bram_if_cntlr_0 |         1|
+|11    |Testgame_dlmb_v10_0           |         1|
+|12    |Testgame_ilmb_bram_if_cntlr_0 |         1|
+|13    |Testgame_ilmb_v10_0           |         1|
+|14    |Testgame_lmb_bram_0           |         1|
++------+------------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------+------+
+|      |Cell                          |Count |
++------+------------------------------+------+
+|1     |Testgame_axi_gpio_0_1         |     1|
+|2     |Testgame_axi_quad_spi_0_0     |     1|
+|3     |Testgame_axi_uartlite_0_0     |     1|
+|4     |Testgame_clk_wiz_1_0          |     1|
+|5     |Testgame_dlmb_bram_if_cntlr_0 |     1|
+|6     |Testgame_dlmb_v10_0           |     1|
+|7     |Testgame_ilmb_bram_if_cntlr_0 |     1|
+|8     |Testgame_ilmb_v10_0           |     1|
+|9     |Testgame_lmb_bram_0           |     1|
+|10    |Testgame_mdm_1_0              |     1|
+|11    |Testgame_microblaze_0_0       |     1|
+|12    |Testgame_pmosip_0_1           |     1|
+|13    |Testgame_rst_clk_wiz_1_100M_0 |     1|
+|14    |Testgame_xbar_0               |     1|
+|15    |IBUF                          |     6|
+|16    |IOBUF                         |     4|
+|17    |OBUF                          |     9|
++------+------------------------------+------+
+
+Report Instance Areas: 
++------+------------------------------+-------------------------------------+------+
+|      |Instance                      |Module                               |Cells |
++------+------------------------------+-------------------------------------+------+
+|1     |top                           |                                     |  1425|
+|2     |  Testgame_i                  |Testgame                             |  1406|
+|3     |    microblaze_0_axi_periph   |Testgame_microblaze_0_axi_periph_0   |   485|
+|4     |    microblaze_0_local_memory |microblaze_0_local_memory_imp_Q7USXJ |   496|
++------+------------------------------+-------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1405.469 ; gain = 391.625
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:42 . Memory (MB): peak = 1405.469 ; gain = 327.555
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1405.469 ; gain = 391.625
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1405.469 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1427.359 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 49 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 1427.359 ; gain = 691.172
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1427.359 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/Vivado/TTCS/TTCS.runs/synth_1/Testgame_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Testgame_wrapper_utilization_synth.rpt -pb Testgame_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jan  4 10:48:18 2025...

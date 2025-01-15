@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Test_mdm_1_0_synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/Test_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Test_microblaze_0_0_synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/Test_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Test_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/Test_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Test_rst_clk_wiz_1_100M_0_synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/Test_rst_clk_wiz_1_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Test_axi_uartlite_0_0_synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/Test_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Test_xbar_0_synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/Test_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Test_ilmb_v10_0_synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/Test_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Test_lmb_bram_0_synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/Test_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Test_clk_wiz_1_0_synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/Test_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Test_axi_quad_spi_0_1_synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/Test_axi_quad_spi_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Test_dlmb_v10_0_synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/Test_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="Test_ilmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="Test_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/Test_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="Test_mdm_1_0_synth_1"/>
+		<Parent Id="Test_microblaze_0_0_synth_1"/>
+		<Parent Id="Test_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="Test_rst_clk_wiz_1_100M_0_synth_1"/>
+		<Parent Id="Test_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="Test_xbar_0_synth_1"/>
+		<Parent Id="Test_ilmb_v10_0_synth_1"/>
+		<Parent Id="Test_lmb_bram_0_synth_1"/>
+		<Parent Id="Test_clk_wiz_1_0_synth_1"/>
+		<Parent Id="Test_axi_quad_spi_0_1_synth_1"/>
+		<Parent Id="Test_dlmb_v10_0_synth_1"/>
+		<Parent Id="Test_dlmb_bram_if_cntlr_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="E:/Vivado/TTCS/TTCS.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="synth_1"/>
+		<Parent Id="Test_mdm_1_0_synth_1"/>
+		<Parent Id="Test_microblaze_0_0_synth_1"/>
+		<Parent Id="Test_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="Test_rst_clk_wiz_1_100M_0_synth_1"/>
+		<Parent Id="Test_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="Test_xbar_0_synth_1"/>
+		<Parent Id="Test_ilmb_v10_0_synth_1"/>
+		<Parent Id="Test_lmb_bram_0_synth_1"/>
+		<Parent Id="Test_clk_wiz_1_0_synth_1"/>
+		<Parent Id="Test_axi_quad_spi_0_1_synth_1"/>
+		<Parent Id="Test_dlmb_v10_0_synth_1"/>
+		<Parent Id="Test_dlmb_bram_if_cntlr_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

@@ -1,0 +1,1 @@
+-wto "602625db77de4564b5332a983ffe45d8" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "DynamicCounter_wrapper_behav" "xil_defaultlib.DynamicCounter_wrapper" "xil_defaultlib.glbl" -log "elaborate.log" 

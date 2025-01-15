@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TTCS.srcs/sources_1/new/DyCount.vhd" \
+"../../../../TTCS.srcs/sim_1/new/TestDynamicCounter.vhd" \
+
+# Do not sort compile order
+nosort

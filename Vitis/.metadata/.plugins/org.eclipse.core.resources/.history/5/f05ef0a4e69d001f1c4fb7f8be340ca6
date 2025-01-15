@@ -1,0 +1,23 @@
+#include "xparameters.h"
+#include "xuartlite.h"
+#include "xgpio.h"
+#include "xil_printf.h"
+#include "sleep.h"
+#include "platform.h"
+XGpio_Config *gpio_config;
+XGpio Gpio;
+void gpio_init() {
+    XGpio_Initialize(&Gpio,XPAR_AXI_GPIO_0_DEVICE_ID);
+    XGpio_SetDataDirection(&Gpio, 1, 0x0);
+}
+int main() {
+	init_platform();
+	gpio_init();
+	xil_printf("Start\n");
+	XGpio_DiscreteWrite(&Gpio,1,0x1C0);
+	//usleep(500000);
+	//XGpio_DiscreteWrite(&Gpio,1,0x0);
+	xil_printf("Complete\n");
+	cleanup_platform();
+    return 0;
+}

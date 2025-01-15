@@ -1,0 +1,21 @@
+15:17:07 **** Incremental Build of configuration Debug for project testIPpwm ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/Vivado/Test/TestIPpwm_wrapper/export/TestIPpwm_wrapper/sw/TestIPpwm_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: testIPpwm.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/Vivado/Test/TestIPpwm_wrapper/export/TestIPpwm_wrapper/sw/TestIPpwm_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "testIPpwm.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testIPpwm.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testIPpwm.elf  |tee "testIPpwm.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7948	    632	   3108	  11688	   2da8	testIPpwm.elf
+'Finished building: testIPpwm.elf.size'
+' '
+
+15:17:08 Build Finished (took 735ms)
+
